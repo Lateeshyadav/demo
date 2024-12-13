@@ -1,6 +1,6 @@
 .timeline {
     position: relative;
-    padding: 20px 0;
+    padding: 0px 0;
 }
 
 .timeline::before {
@@ -54,7 +54,7 @@
     height: 60px;
     border-radius: 50%;
     border: 5px solid #024430;
-    background:#fffacd;
+    background:#FFE7BB;
     position: absolute;
     top: 0;
     left: 54%;

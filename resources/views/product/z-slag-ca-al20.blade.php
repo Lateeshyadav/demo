@@ -9,9 +9,13 @@
         <div class="col-md-4 col-12">
             <img src="{{asset('refmet/demo4/assets/images/case-studies/Z-SlagCA-AL20.jpg')}}" alt="" class="img">
         </div>
-        <div class="col-md-8 col-12">   
-             <h1 class="darkgreen">Z-SLAG CA-AL20</h1>
-            <h3 class="yellow">PRODUCT DATA SHEEET</h3> </div>
+        <div class="col-md-8 col-12">
+          <div class="productname">
+            <h1 class="darkgreen">Z-SLAG CA-AL20</h1>
+            <h3 class="yellow">PRODUCT DATA SHEEET</h3>
+          </div>   
+              
+          </div>
     </div>
 
   </div>
@@ -20,7 +24,7 @@
     <div class="row">
       <div class="col-sm-6">
         <h3 class="darkgreen">Description</h3>
-        <p class="textjustify">Steel making market in India is highly competitive and
+        <p class="textjustify p">Steel making market in India is highly competitive and
           being cost effective in manufacturing along with good quality steel is the essence for sustainability and growth. Kunal minerals private limited is happy to introduce Z-Slag CA-AL20 a product designed to reduce Manganese consumption by improving Manganese recovery up to 70% or more. Z-Slag CA-AL20 reduces the final Fe(m) and FeO content in the LRF furnace slag. This is done by killing the slag of excess oxygen and reducing the slag viscosity. Our product also helps reduce non-metallic inclusions to give better surface finish of rolled product.
           This is a win-win product where cost saving is far more than the cost of addition. Synthetic slag has always been a product to be used by Primary steel makers with basic or neutral lining to reduce inclusion levels. We have added De-Oxidation capability to our product to get the most from the alloying elements added. Z-Slag CA~AL20 help in reversal of metal oxides from slag to steel at the same time prevents inclusion to float around in the liquid steel. Synthetic slag consists of prepared mixture of several individual compounds which is used during secondary steelmaking to assist the steel treatment in the furnace and ladle from the viewpoint of effective refinement. As we are awake of the complexity of number of items needed for effective steel treatment. That's why we offer this pre mix material for simplicity.</p>
         
@@ -99,23 +103,23 @@
         <h3 class="darkgreen">ADDITION OF Z-Slag CA-AL20</h3>
         <h5 class="darkgreen">APPLICATION : (How to use) </h5>   
         <ul>
-          <li class="textjustify"> Once Liquid Steel is ready for tapping and empty ladle is placed add 2kg to 4kg of Z-Slag CA-AL20 per ton of liquid steel in the empty ladle.</li>    
-          <li class="textjustify"> Take the ladle to LRF for refining process. During which lime and other flux are added as per old SOP.</li>    
-          <li class="textjustify"> Depending on the FeO, MnO and other alloying element oxides in slag we can add 2kg to 8kg of Z-Slag CA~AL20. This will help reduce all metal oxides to metal. Make sure after the 2nd addition there is sufficient turbulence in the ladle for proper slag and metal reaction at the interface.</li>  
+          <li class="textjustify p"> Once Liquid Steel is ready for tapping and empty ladle is placed add 2kg to 4kg of Z-Slag CA-AL20 per ton of liquid steel in the empty ladle.</li>    
+          <li class="textjustify p"> Take the ladle to LRF for refining process. During which lime and other flux are added as per old SOP.</li>    
+          <li class="textjustify p"> Depending on the FeO, MnO and other alloying element oxides in slag we can add 2kg to 8kg of Z-Slag CA~AL20. This will help reduce all metal oxides to metal. Make sure after the 2nd addition there is sufficient turbulence in the ladle for proper slag and metal reaction at the interface.</li>  
         </ul>     
  
         <h3 class="darkgreen">BENEFITES OF Z-Slag CA-AL20 : </h3>  
         <ul>
-          <li class="textjustify"> Avoid use of Aluminum Metal.</li>    
-          <li class="textjustify"> Improves Mn recovery to 70% or more.as per c% in steel.</li>    
-          <li class="textjustify"> Reduces Fe(m) and FeO in final discarded furnace Slag </li>
-          <li class="textjustify"> Reduce heat loss in ladle.</li>
-          <li class="textjustify"> Faster inclusion removal. Clean liquid Steel.</li>
-          <li class="textjustify"> Gives better recovery of rolled products and surface finish and</li>
-          <li class="textjustify"> Reduce miss rolls.</li>
-          <li class="textjustify"> An effective fluid sink that absorbs inclusions from steel. Ladle with gas purging is mandatory to get this benefit. Else add before arcing.</li>
-          <li class="textjustify"> Fast and better recovery of steel as well as alloys.</li>
-          <li class="textjustify"> Cost saving is more than the cost of addition.</li>
+          <li class="textjustify p"> Avoid use of Aluminum Metal.</li>    
+          <li class="textjustify p"> Improves Mn recovery to 70% or more.as per c% in steel.</li>    
+          <li class="textjustify p"> Reduces Fe(m) and FeO in final discarded furnace Slag </li>
+          <li class="textjustify p"> Reduce heat loss in ladle.</li>
+          <li class="textjustify p"> Faster inclusion removal. Clean liquid Steel.</li>
+          <li class="textjustify p"> Gives better recovery of rolled products and surface finish and</li>
+          <li class="textjustify p"> Reduce miss rolls.</li>
+          <li class="textjustify p"> An effective fluid sink that absorbs inclusions from steel. Ladle with gas purging is mandatory to get this benefit. Else add before arcing.</li>
+          <li class="textjustify p"> Fast and better recovery of steel as well as alloys.</li>
+          <li class="textjustify p"> Cost saving is more than the cost of addition.</li>
 
         </ul>         
 

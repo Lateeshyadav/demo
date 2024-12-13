@@ -6,9 +6,13 @@
         <div class="col-md-4 col-12">
             <img src="{{asset('refmet/demo4/assets/images/case-studies/Z-Slag-Can.jpg')}}" alt="" class="img">
         </div>
-        <div class="col-md-8 col-12">   
-             <h1 class="darkgreen">Z-SLAG-CAN</h1>
-            <h3 class="yellow">PRODUCT DATA SHEEET</h3> </div>
+        <div class="col-md-8 col-12"> 
+          <div class="productname">
+            <h1 class="darkgreen">Z-SLAG-CAN</h1>
+            <h3 class="yellow">PRODUCT DATA SHEEET</h3>  
+          </div>  
+
+           </div>
     </div>
 
   </div>
@@ -16,7 +20,7 @@
   <div class="container mt-5">
     <div class="row">
       <div class="col-sm-6">
-        <h3 class="darkgreen">Description</h3>
+        <h3 class="darkgreen ">Description</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
         <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p> 
          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>

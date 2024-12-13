@@ -29,12 +29,12 @@
      <ul>
         <li class="h4  textjustify textinfo-h1-p">Spent catalysts.</li>
         <li class="h4  textjustify textinfo-h1-p">Powder, Sludge, Ash, Slag.</li>
-        <li class="h4  textjustify textinfo-h1-p">Stainless Steel Fines, Turnings, Filters</li>
+        <li class="h4  textjustify textinfo-h1-p">Stainless Steel Fines, Turnings, Filters,</li>
         <li class="h4  textjustify textinfo-h1-p">HSS Grinding Dust and Mill Scale.</li>
-        <li class="h4  textjustify textinfo-h1-p">Black Mass, PETIndustry Cobalt and manganese left over ash from Industry's incinerator.</li>
+        <li class="h4  textjustify textinfo-h1-p">Black Mass, PET Industry Cobalt and manganese left over ash from Industry's incinerator.</li>
         <li class="h4  textjustify textinfo-h1-p">Vanadium Ash from Gasifiers.</li>
         <li class="h4  textjustify textinfo-h1-p">Electroplating Scrap,</li>
-        <li class="h4  textjustify textinfo-h1-p">Quality rejects and ETPsludge from principal Catalyst Manufacturers.</li>
+        <li class="h4  textjustify textinfo-h1-p">Quality rejects and ETP sludge from principal Catalyst Manufacturers.</li>
         <li class="h4  textjustify textinfo-h1-p">Industrial Sludge having Nickel, Cobalt, Molybdenum, Vanadium, Tungsten, and Zinc.</li>
      </ul>
     

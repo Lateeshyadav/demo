@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="{{asset('FontAwsome_v6/css/all.css')}}">
     <link rel="stylesheet" href="{{asset('css/demo.css')}}">
     <link rel="stylesheet" href="{{asset('css/style.css')}}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
     {{-- <link rel="stylesheet" href="{{asset('refmet/countercss.css')}}"> --}}
     <!-- Include Slick CSS files -->
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
@@ -40,7 +41,9 @@
           }
           .nav-margin-left{
             margin-left:0% ;
-            align-items: center;
+            overflow: hidden;
+             transition: left 0.3s ease;
+            /* align-items: center; */
             text-align: justify
           }
          }      
@@ -48,7 +51,7 @@
     </style>
 </head>
 <body>
-    <div class="fixed-top">
+    
         <!-- Contact Info Navbar -->
     <nav class="navbar navbar-expand-sm green d-none d-sm-block">
         <div class="container-fluid">
@@ -73,9 +76,10 @@
     </nav>
 
     <!-- Main Navbar -->
-    <nav class="navbar navbar-expand-sm bg-light">
+    <div class="stickytop">
+    <nav class="navbar navbar-expand-sm white ">
         <div class="container-fluid justify-content-center">
-            <a class="navbar-brand mx-auto" href="#">
+            <a class="navbar-brand mx-auto" href="{{url('/')}}">
                 <img class="log" src="{{asset('refmet/assets/images/logo/logo.png')}}" alt="Logo">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -85,22 +89,22 @@
             <div class="collapse navbar-collapse justify-content-center " id="navbarContent">
                 <ul class="navbar-nav nav-margin-left">
                     <li class="nav-item ">
-                        <a class="nav-link active  fs-4 mx-3 text-green text-underline" href="{{url('/')}}">Home</a>
+                        <a class="nav-link active  fs-4 mx-3 text-green text-underline " href="{{url('/')}}" id="clickable-link">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link fs-4 mx-3 text-green text-underline" href="{{url('about')}}">About</a>
+                        <a class="nav-link  fs-4 mx-3 text-green text-underline" href="{{url('about')}}" id="clickable-link">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link fs-4 mx-3 text-green text-underline" href="{{url('product')}}">Product</a>
+                        <a class="nav-link   fs-4 mx-3 text-green text-underline" href="{{url('product')}}" id="clickable-link">Product</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link fs-4 mx-3 text-green text-underline" href="#">Suppliers</a>
+                        <a class="nav-link  fs-4 mx-3 text-green text-underline" href="{{url('listapprovel')}}" id="clickable-link">Suppliers</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link fs-4 mx-3 text-green text-underline d-md-none d-block" href="{{url('contact')}}">Contact Us</a>
+                        <a class="nav-link  fs-4 mx-3 text-green text-underline d-md-none d-block" href="{{url('contact')}}" id="clickable-link">Contact Us</a>
                     </li>
                 </ul>
-                <a class="nav-link fs-4 p-2 btn green yellow btncontact d-md-block d-none " href="{{url('contact')}}">Contact Us</a>
+                <a class="nav-link  fs-4 p-2 btn green yellow btncontact d-md-block d-none " href="{{url('contact')}}" id="clickable-link">Contact Us</a>
             </div>
         </div>
     </nav>
@@ -126,7 +130,7 @@
             </div>
         </div>
         <div class="row bg-white footer-row-second" style="border-radius: 50px 50px 0 0;">
-            <div class="col-md-4 ps-5">
+            <div class="col-md-4 ps-5 col-12 ">
                 <img src="/refmet/assets/images/logo/logo.png" alt="" style="width: 40%;" class="mb-4">
                 <p class=" h5 textjustify footer-p">Refracast Metallurgicals Pvt Ltd (RMPL) 
                     stands as a prominent leader in the 
@@ -139,9 +143,9 @@
                     development, setting us apart as a trendsetter 
                     in the industry</p>
             </div>
-            <div class="col-md-4 ps-5">
-                <h1 class="mb-5 mt-4 ms-5 footer-h">Company</h1>
-                <ul>
+            <div class="col-md-4 ps-5 col-6 text-center" >
+                <h1 class="mb-5 mt-2 ms-4 footer-h">Company</h1>
+                <ul class="">
                     <li class="footer-row-second-li"><a class="footer-row-second-a" href="/refmet.html">Home</a></li>
                     <li class="footer-row-second-li"><a class="footer-row-second-a" href="/about.html">About</a></li>
                     <li class="footer-row-second-li"><a class="footer-row-second-a" href="">Career</a></li>
@@ -150,23 +154,32 @@
                     <li class="footer-row-second-li"><a class="footer-row-second-a" href="">FAQ</a></li>
                 </ul>
             </div>
-            <div class="col-md-4 ">
-                <h1 class="mb-5 mt-4 ms-5 footer-h">Our Product</h1>
-                <ul>
+            <div class="col-md-4 col-6 ">
+                <h1 class="mb-5 mt-2 ms-5 footer-h">Location</h1>
+                {{-- <ul>
                     <li class="footer-row-second-li"><a class="footer-row-second-a" href="{{'/zslagcan'}}">Z-Slag Can</a></li>
                     <li class="footer-row-second-li"><a class="footer-row-second-a" href="{{'/zslagcaal50'}}">Z-Slag CA-AL50</a></li>
                     <li class="footer-row-second-li"><a class="footer-row-second-a" href="{{'/zslagcaal20'}}">Z-Slag CA-AL20</a></li>
                     <li class="footer-row-second-li"><a class="footer-row-second-a" href="{{'/slagkills'}}">SLAG KILL 100</a></li>
                     <li class="footer-row-second-li"><a class="footer-row-second-a" href="{{'/ferronickel'}}">FERRO NICKEL</a></li>
                     <li class="footer-row-second-li"><a class="footer-row-second-a" href="{{'/ferronickelmoly'}}">FERRO NICKEL MOL</a></li>
+                </ul> --}}
+                <ul>
+                    <li class="footer-row-second-li li textjustify"><p><i class="fa-solid fa-location-dot f-icons"></i><strong>Corporate Office Address :</strong> 
+                        Crown Building &nbsp &nbsp Ashoka Park,Opposite Khamardih Police Station, Near Devkripa Hospital Shankar Nagar
+                         Raipur (CG)-492001</p>
+                    </li>
+                    <li class="footer-row-second-li li textjustify"><p><i class="fa-solid fa-envelope f-icons"></i>kunal@refmet.org</p></li>
+                    <li class="footer-row-second-li li textjustify"><p> <i class="fa-solid fa-phone f-icons"></i>98935 94094</p></li>
                 </ul>
+
             </div>
             <hr class="mt-5">
         </div>
                
         <div class="row bg-white">
             <div class="col-md-12">
-                <h5 class="text-center mt-4 footer-copy">Copyright © 2022 - 2024. Refracast Metallurgicals Pvt. Ltd. | All Rights Reserved.</h5>
+                <h5 class="text-center mt-0 footer-copy">Copyright © 2022 - 2024. Refracast Metallurgicals Pvt. Ltd. | All Rights Reserved.</h5>
             </div>
         </div>
      </div>
@@ -176,6 +189,48 @@
 <script src="{{asset('bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js')}}"></script>
 <script src="{{asset('css/slider.js')}}"></script>
 {{-- <script src="{{asset('refmet/counterjs.js')}}"></script> --}}
+{{-- <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const link = document.getElementById('clickable-link');
+
+      link.addEventListener('click', (event) => {
+        event.preventDefault(); // Prevent default link behavior
+        link.classList.toggle('active'); // Toggle the active class
+      });
+    });
+  </script> --}}
+  {{-- <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const links = document.querySelectorAll('.text-underline');
+
+      links.forEach(link => {
+        link.addEventListener('click', () => {
+          // Remove 'active' class from all links
+          links.forEach(l => l.classList.remove('active'));
+
+          // Add 'active' class to the clicked link
+          link.classList.add('active');
+        });
+      });
+    });
+  </script> --}}
+  document.querySelectorAll('.text-underline').forEach(link => {
+    link.addEventListener('click', (e) => {
+      e.preventDefault();
+  
+      // Remove 'active' class from all links
+      document.querySelectorAll('.text-underline').forEach(nav => {
+        nav.classList.remove('active');
+      });
+  
+      // Add 'active' class to the clicked link
+      e.target.classList.add('active');
+    });
+  });
+  
+        </script>
+
+{{-- <script> --}}
 @stack('js')
 
 

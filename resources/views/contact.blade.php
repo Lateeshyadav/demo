@@ -41,7 +41,7 @@
    }
    .nav-margin-left{
      margin-left:0% ;
-     align-items: center;
+     /* align-items: center; */
      text-align: justify
      
      
@@ -101,7 +101,7 @@
             <div class="row">
               <div class="col-2">
                 {{-- <img src="" alt=""> --}}
-                <a href="" class="contact-icons"><i class="fa-solid fa-location-dot"></i></a>
+                <a href="" class="contact-icons loc"><i class="fa-solid fa-location-dot"></i></a>
               </div>
               <div class="col-10">
                 <h5>Factory Address : </h5>

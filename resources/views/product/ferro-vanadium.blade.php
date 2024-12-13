@@ -9,9 +9,12 @@
         <div class="col-md-4 col-12">
             <img src="{{asset('refmet/demo4/assets/images/case-studies/FERRO-VANADIUM.jpg')}}" alt="" class="img">
         </div>
-        <div class="col-md-8 col-12">   
-             <h1 class="darkgreen">FERRO VANADIUM</h1>
-            <h3 class="yellow">PRODUCT DATA SHEEET</h3> </div>
+        <div class="col-md-8 col-12"> 
+          <div class="productname">
+            <h1 class="darkgreen">FERRO VANADIUM</h1>
+            <h3 class="yellow">PRODUCT DATA SHEEET</h3> </div>  
+             
+          </div>
     </div>
 
   </div>
@@ -20,9 +23,9 @@
     <div class="row">
       <div class="col-sm-6">
         <h3 class="darkgreen">Commercial Benefit</h3>
-        <p class="textjustify">Ferro vanadium is an alloy composed primarily of iron and vanadium. It is commonly used as an additive in the production of steel to enhance its strength, hardness, and corrosion resistance. The addition of ferro vanadium to steel can improve its structural integrity, making it suitable for applications where high strength and durability are required.</p>
-        <p class="textjustify">Ferro vanadium is also utilized in the manufacturing of various steel products, including structural steel, tool steel, and stainless steel. It helps to refine the grain structure of steel, increase its tensile strength, and improve its resistance to wear, fatigue, and heat.</p>
-        <p class="textjustify">In addition to its use in the steel industry, ferro vanadium finds applications in other sectors as well. It is employed in the production of certain superalloys, which are used in aerospace, defense, and high-temperature applications. These alloys. possess exceptional strength, heat resistance, and corrosion resistance, making them suitable for extreme operating conditions.</p>
+        <p class="textjustify p">Ferro vanadium is an alloy composed primarily of iron and vanadium. It is commonly used as an additive in the production of steel to enhance its strength, hardness, and corrosion resistance. The addition of ferro vanadium to steel can improve its structural integrity, making it suitable for applications where high strength and durability are required.</p>
+        <p class="textjustify p">Ferro vanadium is also utilized in the manufacturing of various steel products, including structural steel, tool steel, and stainless steel. It helps to refine the grain structure of steel, increase its tensile strength, and improve its resistance to wear, fatigue, and heat.</p>
+        <p class="textjustify p">In addition to its use in the steel industry, ferro vanadium finds applications in other sectors as well. It is employed in the production of certain superalloys, which are used in aerospace, defense, and high-temperature applications. These alloys. possess exceptional strength, heat resistance, and corrosion resistance, making them suitable for extreme operating conditions.</p>
         
         
         

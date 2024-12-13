@@ -9,9 +9,12 @@
         <div class="col-md-4 col-12">
             <img src="{{asset('refmet/demo4/assets/images/case-studies/Z-Slag-Can.jpg')}}" alt="" class="img">
         </div>
-        <div class="col-md-8 col-12">   
-             <h1 class="darkgreen">Z-SLAG-CAN</h1>
-            <h3 class="yellow">PRODUCT DATA SHEEET</h3> </div>
+        <div class="col-md-8 col-12"> 
+          <div class="productname">
+            <h1 class="darkgreen">Z-SLAG-CAN</h1>
+            <h3 class="yellow">PRODUCT DATA SHEEET</h3></div>  
+              
+          </div>
     </div>
 
   </div>
@@ -20,7 +23,7 @@
     <div class="row">
       <div class="col-sm-6">
         <h3 class="darkgreen">Description</h3>
-        <p class="textjustify">Steel making market in India is highly competitive and being cost effective in manufacturing along with good quality steel is the essence for sustainability and growth. Refracast Metallurgicals Pvt.ltd. is happy to introduce Z-Slag CAN a product designed to improve inclusion removal capacity of LRF slag. By adding the given active C12A7 sulphur and Phos can be controlled to a great extent. The entire LRF slag will get fluidized and the entire slag viscosity will reduce. Making it very easy to handle the slag. No further re- oxidation of liquid steel will occure as the slag will form a tight seal between steel and atmosphere. Will help improve ladle life by avoiding CaF2. And will help bring down the total slag volume. Making it energy efficient.
+        <p class="textjustify p">Steel making market in India is highly competitive and being cost effective in manufacturing along with good quality steel is the essence for sustainability and growth. Refracast Metallurgicals Pvt.ltd. is happy to introduce Z-Slag CAN a product designed to improve inclusion removal capacity of LRF slag. By adding the given active C12A7 sulphur and Phos can be controlled to a great extent. The entire LRF slag will get fluidized and the entire slag viscosity will reduce. Making it very easy to handle the slag. No further re- oxidation of liquid steel will occure as the slag will form a tight seal between steel and atmosphere. Will help improve ladle life by avoiding CaF2. And will help bring down the total slag volume. Making it energy efficient.
           As seen in Rankin diagram, all three varieties of synthetic slag targets to make the slag in the C12 A7 phase region.
           The Rankin diagram
           SLAD
@@ -82,15 +85,15 @@
             </tr>            
           </tbody>
         </table>
-        <p class="textjustify">(With the rising Titanium restriction in finished Steel, this slag conditioner is ideal) Packaging: 1MT jumbo bag / 20kg HDPE bags in Pallet</p>
+        <p class="textjustify p">(With the rising Titanium restriction in finished Steel, this slag conditioner is ideal) Packaging: 1MT jumbo bag / 20kg HDPE bags in Pallet</p>
         
       </div>
       <div class="col-sm-6">
         <h3 class="darkgreen">APPLICATION : (How to use) </h3>  
         <ul>
-          <li class="textjustify"> Once the Liquid Steel is ready for tapping and empty ladle is placed add 3kg of Z-Slag CAN per ton of liquid steel in the empty ladle or during the tapping.</li>    
-          <li class="textjustify"> Take the ladle to LRF for refining process. During which lime and other flux are added as per old SOP.</li>    
-          <li class="textjustify"> During final stages if the MnO or FeO content of slag is high add 2kg to 8kg of Z-Slag CAN this will help improve Metal Oxide reduction back to Metal. Make sure after the 2nd addition there is sufficient turbulence in the ladle for proper slag and metal reaction at the interface.</li> 
+          <li class="textjustify p"> Once the Liquid Steel is ready for tapping and empty ladle is placed add 3kg of Z-Slag CAN per ton of liquid steel in the empty ladle or during the tapping.</li>    
+          <li class="textjustify p"> Take the ladle to LRF for refining process. During which lime and other flux are added as per old SOP.</li>    
+          <li class="textjustify p"> During final stages if the MnO or FeO content of slag is high add 2kg to 8kg of Z-Slag CAN this will help improve Metal Oxide reduction back to Metal. Make sure after the 2nd addition there is sufficient turbulence in the ladle for proper slag and metal reaction at the interface.</li> 
             
         </ul>      
         

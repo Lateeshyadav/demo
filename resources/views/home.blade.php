@@ -21,6 +21,7 @@
             <div class="col-md-12 green position-relative main-box" style="">
                 <div class="box mt-5 position-absolute translate-middle" style="">
                     <img src="{{asset('image/home.png')}}" alt="" class="img-fluid imgsize">
+                    {{-- <div class="home-img"></div> --}}
                     <d class="d-md-block d-none">
                         <ul class="list-unstyled d-flex justify-content-center btnul position-absolute ">
                             <li><a href="{{url('whatwebuy')}}" class="btn btn-green  p-3 px-5 btna btnax">WHAT WE BUY</a></li>
@@ -103,7 +104,7 @@
                             <!-- 1995 Left -->
                             <div class="timeline-item  ms-5">
                                 <div class="timeline-marker"><i class="fa-regular fa-clock timeline-marker-icons"></i></div>
-                                <div class="timeline-content bg-light left">
+                                <div class="timeline-content white left">
                                     <div class="timeline-date">1995</div>
                                     <!-- <div class="timeline-title">Pioneering Raw Material Sourcing</div> -->
                                     <p class="timeline-p text-green textjustify">Refracast Metallurgicals Pvt Ltd (RMPL) was born as a 
@@ -115,7 +116,7 @@
                             </div>
                             <!-- 2000 left -->
                             <div class="timeline-item  ms-5">
-                                <div class="timeline-marker outline-marker"><i class="fa-solid fa-minus timeline-marker-icons"></i></div>
+                                <div class="timeline-marker outline-marker"><i class="bi bi-dash-lg timeline-marker-bs-icons"></i></div>
                                 <div class="timeline-content green">
                                     <div class="timeline-date yellow ">2000</div>
                                     <!-- <div class="timeline-title">Pioneering Raw Material Sourcing</div> -->
@@ -132,8 +133,8 @@
                             </div>
                             <!-- 2005 Left -->
                             <div class="timeline-item  ms-5">
-                                <div class="timeline-marker"><i class="fa-solid fa-minus timeline-marker-icons"></i></div>
-                                <div class="timeline-content bg-light left">
+                                <div class="timeline-marker"><i class="bi bi-dash-lg timeline-marker-bs-icons"></i></div>
+                                <div class="timeline-content white left">
                                     <div class="timeline-date">2005</div>
                                     <!-- <div class="timeline-title">Pioneering Raw Material Sourcing</div> -->
                                     <p class="timeline-p text-green textjustify">we made significant advancements by developing 
@@ -147,7 +148,7 @@
                             </div>
                             <!-- 2010 left -->
                             <div class="timeline-item  ms-5">
-                                <div class="timeline-marker outline-marker"><i class="fa-solid fa-minus timeline-marker-icons"></i></div>
+                                <div class="timeline-marker outline-marker"><i class="bi bi-dash-lg timeline-marker-bs-icons"></i></div>
                                 <div class="timeline-content green">
                                     <div class="timeline-date yellow ">2010</div>
                                     <!-- <div class="timeline-title">Pioneering Raw Material Sourcing</div> -->
@@ -159,8 +160,8 @@
                             </div>
                             <!-- 2012 Left -->
                             <div class="timeline-item  ms-5">
-                                <div class="timeline-marker"><i class="fa-solid fa-minus timeline-marker-icons"></i></div>
-                                <div class="timeline-content bg-light left">
+                                <div class="timeline-marker"><i class="bi bi-dash-lg timeline-marker-bs-icons"></i></div>
+                                <div class="timeline-content white left">
                                     <div class="timeline-date">2012</div>
                                     <!-- <div class="timeline-title">Pioneering Raw Material Sourcing</div> -->
                                     <p class="timeline-p text-green textjustify">Our relentless pursuit of innovation led us to develop 
@@ -171,7 +172,7 @@
                             </div>
                             <!-- 2019 left -->
                             <div class="timeline-item  ms-5">
-                                <div class="timeline-marker outline-marker"><i class="fa-solid fa-minus timeline-marker-icons"></i></div>
+                                <div class="timeline-marker outline-marker"><i class="bi bi-dash-lg timeline-marker-bs-icons"></i></div>
                                 <div class="timeline-content green">
                                     <div class="timeline-date yellow ">2019</div>
                                     <!-- <div class="timeline-title">Pioneering Raw Material Sourcing</div> -->
@@ -185,8 +186,8 @@
                             </div>
                             <!-- 2021 Left -->
                             <div class="timeline-item  ms-5">
-                                <div class="timeline-marker"><i class="fa-solid fa-minus timeline-marker-icons"></i></div>
-                                <div class="timeline-content bg-light left">
+                                <div class="timeline-marker"><i class="bi bi-dash-lg timeline-marker-bs-icons"></i></i></div>
+                                <div class="timeline-content white left">
                                     <div class="timeline-date">2021</div>
                                     <!-- <div class="timeline-title">Pioneering Raw Material Sourcing</div> -->
                                     <p class="timeline-p text-green textjustify">In response to the growing demand for composite metal 
@@ -198,7 +199,7 @@
                             </div>
                             <!-- 2022 left -->
                             <div class="timeline-item  ms-5">
-                                <div class="timeline-marker outline-marker"><i class="fa-solid fa-minus timeline-marker-icons"></i></div>
+                                <div class="timeline-marker outline-marker"><i class="bi bi-dash-lg timeline-marker-bs-icons"></i></i></div>
                                 <div class="timeline-content green">
                                     <div class="timeline-date yellow ">2022</div>
                                     <!-- <div class="timeline-title">Pioneering Raw Material Sourcing</div> -->
@@ -210,8 +211,8 @@
                             </div>
                             <!-- 2023 Left -->
                             <div class="timeline-item  ms-5">
-                                <div class="timeline-marker"><i class="fa-solid fa-minus timeline-marker-icons"></i></div>
-                                <div class="timeline-content bg-light left">
+                                <div class="timeline-marker"><i class="bi bi-dash-lg timeline-marker-bs-icons"></i></i></div>
+                                <div class="timeline-content white left">
                                     <div class="timeline-date">2023</div>
                                     <!-- <div class="timeline-title">Pioneering Raw Material Sourcing</div> -->
                                     <p class="timeline-p text-green textjustify">Our collaboration with Indian Oil Corporation Limited 
@@ -223,7 +224,7 @@
                             </div>
                             <!-- 2024 left -->
                             <div class="timeline-item  ms-5 timelineitem-left" style="margin-bottom:-35% ">
-                                <div class="timeline-marker outline-marker"><i class="fa-solid fa-minus timeline-marker-icons"></i></div>
+                                <div class="timeline-marker outline-marker"><i class="bi bi-dash-lg timeline-marker-bs-icons"></i></div>
                                 <div class="timeline-content green">
                                     <div class="timeline-date yellow ">2024</div>
                                     <!-- <div class="timeline-title">Pioneering Raw Material Sourcing</div> -->
@@ -287,8 +288,8 @@
                             </div>
                             <!-- 1997 right -->
                             <div class="timeline-item  ms-5 " style="margin-top: 26%;">
-                                <div class="timeline-marker"><i class="fa-solid fa-minus timeline-marker-icons"></i></div>
-                                <div class="timeline-content bg-light ">
+                                <div class="timeline-marker"><i class="bi bi-dash-lg timeline-marker-bs-icons"></i></div>
+                                <div class="timeline-content white ">
                                     <div class="timeline-date ">1997</div>
                                     <!-- <div class="timeline-title">Pioneering Raw Material Sourcing</div> -->
                                     <p class="timeline-p text-green textjustify">In 1997, we pioneered the production of pre-melted 
@@ -303,7 +304,7 @@
                             </div>
                             <!-- 2000 right -->
                             <div class="timeline-item  ms-5 " style="margin-top: 29%;">
-                                <div class="timeline-marker outline-marker"><i class="fa-solid fa-minus timeline-marker-icons text-green"></i></div>
+                                <div class="timeline-marker outline-marker"><i class="bi bi-dash-lg timeline-marker-bs-icons text-green"></i></div>
                                 <div class="timeline-content left green">
                                     <div class="timeline-date yellow">2000</div>
                                     <!-- <div class="timeline-title">Pioneering Raw Material Sourcing</div> -->
@@ -316,8 +317,8 @@
                             </div>
                             <!-- 2005 right -->
                             <div class="timeline-item  ms-5"style="margin-top: 26%;">
-                                <div class="timeline-marker"><i class="fa-solid fa-minus timeline-marker-icons"></i></div>
-                                <div class="timeline-content bg-light ">
+                                <div class="timeline-marker"><i class="bi bi-dash-lg timeline-marker-bs-icons"></i></div>
+                                <div class="timeline-content white ">
                                     <div class="timeline-date ">2005</div>
                                     <!-- <div class="timeline-title">Pioneering Raw Material Sourcing</div> -->
                                     <p class="timeline-p text-green textjustify py-4">Our R&D efforts led to the creation of FerroCobalt, 
@@ -328,7 +329,7 @@
                             </div>
                             <!-- 2006 right -->
                             <div class="timeline-item  ms-5"style="margin-top: 28%;">
-                                <div class="timeline-marker outline-marker"><i class="fa-solid fa-minus timeline-marker-icons text-green"></i></div>
+                                <div class="timeline-marker outline-marker"><i class="bi bi-dash-lg timeline-marker-bs-icons text-green"></i></div>
                                 <div class="timeline-content left green">
                                     <div class="timeline-date yellow">2006</div>
                                     <!-- <div class="timeline-title">Pioneering Raw Material Sourcing</div> -->
@@ -340,8 +341,8 @@
                             </div>
                             <!-- 2010 right -->
                             <div class="timeline-item  ms-5">
-                                <div class="timeline-marker"><i class="fa-solid fa-minus timeline-marker-icons"></i></div>
-                                <div class="timeline-content bg-light ">
+                                <div class="timeline-marker"><i class="bi bi-dash-lg timeline-marker-bs-icons"></i></div>
+                                <div class="timeline-content white ">
                                     <div class="timeline-date ">2010</div>
                                     <!-- <div class="timeline-title">Pioneering Raw Material Sourcing</div> -->
                                     <p class="timeline-p text-green textjustify mb-4">In response to industry demand, we developed Ferro 
@@ -351,7 +352,7 @@
                             </div>
                             <!-- 2012 right -->
                             <div class="timeline-item  ms-5"style="margin-top: 29%;">
-                                <div class="timeline-marker outline-marker"><i class="fa-solid fa-minus timeline-marker-icons text-green"></i></div>
+                                <div class="timeline-marker outline-marker"><i class="bi bi-dash-lg timeline-marker-bs-icons text-green"></i></div>
                                 <div class="timeline-content left green">
                                     <div class="timeline-date yellow">2012</div>
                                     <!-- <div class="timeline-title">Pioneering Raw Material Sourcing</div> -->
@@ -363,8 +364,8 @@
                             </div>
                             <!-- 2020 right -->
                             <div class="timeline-item  ms-5"style="margin-top: 30%;">
-                                <div class="timeline-marker"><i class="fa-solid fa-minus timeline-marker-icons"></i></div>
-                                <div class="timeline-content bg-light ">
+                                <div class="timeline-marker"><i class="bi bi-dash-lg timeline-marker-bs-icons"></i></div>
+                                <div class="timeline-content white ">
                                     <div class="timeline-date ">2020</div>
                                     <!-- <div class="timeline-title">Pioneering Raw Material Sourcing</div> -->
                                     <p class="timeline-p text-green textjustify py-2">After years of dedicated R&D, we developed Vanadium 
@@ -375,7 +376,7 @@
                             </div>
                             <!-- 2021 right -->
                             <div class="timeline-item  ms-5 timelineitem-right"style="margin-bottom: -26%;">
-                                <div class="timeline-marker outline-marker"><i class="fa-solid fa-minus timeline-marker-icons text-green"></i></div>
+                                <div class="timeline-marker outline-marker"><i class="bi bi-dash-lg timeline-marker-bs-icons text-green"></i></div>
                                 <div class="timeline-content left green">
                                     <div class="timeline-date yellow">2021</div>
                                     <!-- <div class="timeline-title">Pioneering Raw Material Sourcing</div> -->
@@ -421,8 +422,9 @@
             
                         
         </div>
-        <div class="d-grid">
+        <div class="">
             <button class="btn top shadow" id="toggle-btn"><span class="span">View More</span><i class="fa-solid fa-angle-down outline-span "></i></button>
+            {{-- <p class=" top" id="toggle-btn"><span class="span">View More</span><i class="bi bi-chevron-down outline-span"></i></p> --}}
         </div>
      </div>
 
@@ -430,25 +432,12 @@
      <section>
         <div class="container-fluid mt-5">
             <div class="row d-flex mx-3">
-                 <!-- <div class="col-md-4">
-                    <h4 style="color: #fff">Financial Plannig</h4>
-                    <p style="color: #fff">Horem ipsum dotor consectetuer lorem simply dummy orem commo</p>
-                    <h4 style="color: #fff">Software and Research</h4>
-                    <p style="color: #fff">Horem ipsum dotor consectetuer lorem simply dummy orem commo</p>
-                    <h4 style="color: #fff">Quality Resourcing</h4>
-                    <p style="color: #fff">Horem ipsum dotor consectetuer lorem simply dummy orem commo</p>
-                </div>  -->
+                 
                 <div class="col-md-12">
                     <img src="/refmet/demo4/images/01.jpg" alt="" class="img-fluid imgfluid">
+                    <div class="image-box"></div>
                 </div>
-                 <!-- <div class="col-md-4">
-                    <h4 class="text-white" style="color: #fff">Business Services</h4>
-                    <p style="color: #fff">Horem ipsum dotor consectetuer lorem simply dummy orem commo</p>
-                    <h4 style="color: #fff">Healthcare Services</h4>
-                    <p style="color: #fff">Horem ipsum dotor consectetuer lorem simply dummy orem commo</p>
-                    <h4 style="color: #fff">Travel and Aviation</h4>
-                    <p style="color: #fff">Horem ipsum dotor consectetuer lorem simply dummy orem commo</p>
-                </div>  -->
+                 
             </div>
             <div class="row d-flex g-1 shadow mx-4">
                 <div class="col-md-3  p-lg-5 p-md-4 bg-light text-md-start text-center col-p5 col3"> 
@@ -554,7 +543,6 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 
 <script>
-
 function showTimeline(){
     let showtime =document.querySelectorAll('.timeline-item');
 }

@@ -9,9 +9,12 @@
         <div class="col-md-4 col-12">
             <img src="{{asset('refmet/demo4/assets/images/case-studies/SLAG-KILL-100.jpg')}}" alt="" class="img">
         </div>
-        <div class="col-md-8 col-12">   
-             <h1 class="darkgreen">SLAG KILL 100</h1>
-            <h3 class="yellow">PRODUCT DATA SHEEET</h3> </div>
+        <div class="col-md-8 col-12"> 
+          <div class="productname">
+            <h1 class="darkgreen">SLAG KILL 100</h1>
+            <h3 class="yellow">PRODUCT DATA SHEEET</h3> </div>  
+             
+          </div>
     </div>
 
   </div>
@@ -20,7 +23,7 @@
     <div class="row">
       <div class="col-sm-6">
         <h3 class="darkgreen">Description</h3>
-        <p class="textjustify">Secondary steel making market in India is highly competitive and being cost effective in manufacturing is the essence for sustainability and growth. Kunal minerals private limited is happy to introduce SLAG KILL 100 a product designed to reduce Manganese consumption by improving Manganese recovery up to 70% or more Slag Kill 100 reduces the final Fe(m) and FeO content in the induction furnace slag. This is done by killing the slag of excess oxygen and reducing the slag viscosity. Our product also helps reduce non-metallic inclusions to give better surface finish of rolled product. This is a win-win product where cost saving is far more than the cost of addition. Synthetic slag has always been a product to be used by Primary steel makers with basic or neutral lining but with little modification Slag Kill 100 is designed keeping in mind acidic lining of secondary steel maker's needs.
+        <p class="textjustify p">Secondary steel making market in India is highly competitive and being cost effective in manufacturing is the essence for sustainability and growth. Kunal minerals private limited is happy to introduce SLAG KILL 100 a product designed to reduce Manganese consumption by improving Manganese recovery up to 70% or more Slag Kill 100 reduces the final Fe(m) and FeO content in the induction furnace slag. This is done by killing the slag of excess oxygen and reducing the slag viscosity. Our product also helps reduce non-metallic inclusions to give better surface finish of rolled product. This is a win-win product where cost saving is far more than the cost of addition. Synthetic slag has always been a product to be used by Primary steel makers with basic or neutral lining but with little modification Slag Kill 100 is designed keeping in mind acidic lining of secondary steel maker's needs.
           Synthetic slag consists of prepared mixture of several individual compounds which is used during secondary steelmaking to assist the steel treatment in the furnace and ladle from the viewpoint of effective refinement. Synthetic slag practice is normally used to obtain clean steels and for the desulphurization and dephosphorization of the liquid steel but that will not be the case in Acidic lining.</p>
         
           <table class="table border table-hover">

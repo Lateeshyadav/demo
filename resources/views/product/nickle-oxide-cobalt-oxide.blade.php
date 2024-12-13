@@ -12,8 +12,11 @@
                     alt="" class="img">
             </div>
             <div class="col-md-8 col-12">
-                <h1 class="darkgreen">NICKLE OXIDE & COBALT OXIDE</h1>
-                <h3 class="yellow">PRODUCT DATA SHEEET</h3>
+                <div class="productname">
+                    <h1 class="darkgreen">NICKLE OXIDE & COBALT OXIDE</h1>
+                    <h3 class="yellow">PRODUCT DATA SHEEET</h3>
+                </div>
+
             </div>
         </div>
 
@@ -24,7 +27,7 @@
             <div class="col-sm-6">
                 <h4 class="yellow">NICKLE OXIDE (NIO)BB-32</h4>
                 <h4 class="darkgreen">INTRODUCTION:</h4>
-                <p class="textjustify">Nickel oxide (NIO) is a versatile compound that finds various applications in the paint industry. This
+                <p class="textjustify p">Nickel oxide (NIO) is a versatile compound that finds various applications in the paint industry. This
                     technical literature aims to provide essential information about the properties, benefits .Nickel oxide
                     is a valuable component in the paint industry, offering benefits such as deep black pigment, heat
                     resistance, corrosion protection, conductivity, and anti-corrosion properties.</p>
@@ -133,7 +136,7 @@
             <div class="col-sm-6">
               <h4 class="yellow">COBALT OXIDE (CoO.Co203)GT-90</h4>
               <h4 class="darkgreen">INTRODUCTION:</h4>
-              <p class="textjustify">Cobalt Oxide (COO.Co203) is a black powder compound with various applications across different industries. This technical literature aims to provide essential information about the properties, applications, and recommended usage of Cobalt Oxide.Cobalt Oxide (CoO.Co203) is a versatile compound with applications in the ceramic, pigment, catalyst, and battery industries</p>
+              <p class="textjustify p">Cobalt Oxide (COO.Co203) is a black powder compound with various applications across different industries. This technical literature aims to provide essential information about the properties, applications, and recommended usage of Cobalt Oxide.Cobalt Oxide (CoO.Co203) is a versatile compound with applications in the ceramic, pigment, catalyst, and battery industries</p>
 
               <table class="table table-bordered">
                   {{-- <h4>PRODUCT</h4> --}}

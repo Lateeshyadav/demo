@@ -22,11 +22,11 @@
                   <img src="{{ asset('refmet/demo4/assets/images/case-studies/TUNGSTEN-OXIDE.jpg') }}" alt="" class="img" style="align-items: center">
                     <h4 class="yellow">TUNGSTEN OXIDE</h4>
                     <h4 class="darkgreen">Nx35</h4>
-                    <p class="textjustify ">Tungsten oxide is an oxide compound of tungsten and oxygen. This compound is
+                    <p class="textjustify p">Tungsten oxide is an oxide compound of tungsten and oxygen. This compound is
                         usually used as a host raw material for optical materials. Because it offers unique optical
                         properties as smaller scales, it can be used in a variety of applications. It can be used to produce
                         composite semi-conducting materials and ceramic pigments.</p>
-                    <p class="textjustify">Tungsten oxideis an abundant, versatile oxide that is widely explored for
+                    <p class="textjustify p">Tungsten oxideis an abundant, versatile oxide that is widely explored for
                         catalysis, sensing, electrochromic devices, and numerous other applications.</p>
 
                         <h5 class="yellow">Properties of Tungsten oxide Wo<sub>3</sub></h5>
@@ -106,8 +106,8 @@
                   <img src="{{ asset('refmet/demo4/assets/images/case-studies/VANADIUM-PENTOXIDE.jpg') }}" alt="" class="img">
                   <h4 class="yellow">VANADIUM PENTOXIDE</h4>
                   <h4 class="darkgreen">Wn38</h4>
-                  <p class="textjustify">Vanadium pentoxide (V205) is a compound composed of vanadium and oxygen atoms.</p>
-                  <p class="textjustify">Tungsten oxideis an abundant, versatile oxide that is widely explored for
+                  <p class="textjustify p">Vanadium pentoxide (V205) is a compound composed of vanadium and oxygen atoms.</p>
+                  <p class="textjustify p">Tungsten oxideis an abundant, versatile oxide that is widely explored for
                       catalysis, sensing, electrochromic devices, and numerous other applications.</p>
 
                       <h5 class="yellow">Properties of Vanadium Pentoxide (V205):</h5>

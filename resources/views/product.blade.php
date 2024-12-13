@@ -59,7 +59,7 @@
 
      
     </ul>
-    <a href="{{asset('broucher/BROCHURE.pdf')}}" download="BROCHURE.pdf" class=" text-decoration-none btn btn-outline-success w-100 py-3"><i class="fa-solid fa-download m-1"></i>Download Brochure</a>
+    <a href="{{asset('broucher/BROCHURE.pdf')}}" download="BROCHURE.pdf" class=" text-decoration-none btn green  btnbroucher w-100 py-3 "><i class="fa-solid fa-download m-1"></i>Download Brochure</a>
 
   </div>
 </div>
@@ -78,9 +78,12 @@
         <div class="col-md-4 col-12">
             <img src="{{asset('refmet/demo4/assets/images/case-studies/Z-Slag-Can.jpg')}}" alt="" class="img">
         </div>
-        <div class="col-md-8 col-12">   
-             <h1 class="darkgreen">Z-SLAG-CAN</h1>
-            <h3 class="yellow">PRODUCT DATA SHEEET</h3> </div>
+        <div class="col-md-8 col-12"> 
+          <div class="productname">
+            <h1 class="darkgreen">Z-SLAG-CAN</h1>
+            <h3 class="yellow">PRODUCT DATA SHEEET</h3></div>  
+            
+           </div>
     </div>
 
   </div>
@@ -255,7 +258,7 @@
                 
                      
                     </ul>
-                    <a href="{{asset('broucher/BROCHURE.pdf')}}" download="BROCHURE.pdf" class=" text-decoration-none btn btn-outline-success w-100 py-3"><i class="fa-solid fa-download m-1"></i>Download Brochure</a>
+                    <a href="{{asset('broucher/BROCHURE.pdf')}}" download="BROCHURE.pdf" class=" text-decoration-none btn green btnbroucher w-100 py-3"><i class="fa-solid fa-download m-1"></i>Download Brochure</a>
 
                   </div>
                 </div>
@@ -274,6 +277,23 @@
 
  
 </div>
+<script>
+  // Add click event listener to all links
+// document.querySelectorAll('.widget-a').forEach(link => {
+//   link.addEventListener('click', function (e) {
+//     e.preventDefault();
+
+//     // Remove 'active' class from all links
+//     document.querySelectorAll('.widget-a').forEach(item => {
+//       item.classList.remove('active');
+//     });
+
+//     // Add 'active' class to the clicked link
+//     this.classList.add('active');
+//   });
+// });
+
+</script>
 
 
 

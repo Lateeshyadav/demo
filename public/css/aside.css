@@ -20,18 +20,20 @@
 .widget-a{   
 
     width: 100%;
-    height: 60px;
-    padding: 5px;    
+    height: 70px;
+    padding: 19px 0 5PX 5PX;    
     border: 1px solid black;    
     display: block;
     text-decoration: none;
     font-weight: 600;
     color: #024430;
+    font-weight: bold;
+    
 }
 .widget-a:hover{
     
     background-color: #024430;
-    color: #D5B895;
+    color: #FFE7BB;
 }
 .widget-i{
     position: absolute;
