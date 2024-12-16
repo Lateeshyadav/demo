@@ -197,7 +197,7 @@
       </div>      
     </div>
   </div>
-            @show   
+   @show   
             
                           
             
@@ -277,23 +277,45 @@
 
  
 </div>
+
 <script>
-  // Add click event listener to all links
-// document.querySelectorAll('.widget-a').forEach(link => {
-//   link.addEventListener('click', function (e) {
-//     e.preventDefault();
+       // Select all sidebar links
+const sidebarLinks = document.querySelectorAll('.widget-a');
 
-//     // Remove 'active' class from all links
-//     document.querySelectorAll('.widget-a').forEach(item => {
-//       item.classList.remove('active');
-//     });
+// Check localStorage for the active link and apply the class
+const activeUrl = localStorage.getItem('activeLink');
+if (activeUrl) {
+    sidebarLinks.forEach(link => {
+        if (link.getAttribute('href') === activeUrl) {
+            link.classList.add('active');
+        }
+    });
+}
 
-//     // Add 'active' class to the clicked link
-//     this.classList.add('active');
-//   });
-// });
+// Add click event listener to each link
+sidebarLinks.forEach(link => {
+    link.addEventListener('click', function (event) {
+        event.preventDefault(); // Prevent default navigation
 
-</script>
+        // Remove the active class from all links
+        sidebarLinks.forEach(l => l.classList.remove('active'));
+
+        // Add the active class to the clicked link
+        this.classList.add('active');
+
+        // Store the active link in localStorage
+        const targetUrl = this.getAttribute('href');
+        localStorage.setItem('activeLink', targetUrl);
+
+        // Redirect to the clicked link's href
+        window.location.href = targetUrl;
+    });
+});
+
+    </script>
+
+
+
 
 
 

@@ -435,7 +435,8 @@
                  
                 <div class="col-md-12">
                     <img src="/refmet/demo4/images/01.jpg" alt="" class="img-fluid imgfluid">
-                    <div class="image-box"></div>
+                    {{-- <div class="test-img"></div> --}}
+                    {{-- <div class="image-box"></div> --}}
                 </div>
                  
             </div>
@@ -474,7 +475,9 @@
         {{-- <h1 class="text-center display-4 " style="font-weight: bold;">Our Process</h1> --}}
         <div class="row">
             <div class="col-md-12">
-                <img src="{{asset('image/our-process.png')}}" alt="" class="img-fluid ourprocess">
+                {{-- <img src="{{asset('image/our-process.png')}}" alt="" class="img-fluid ourprocess"> --}}
+                <div class="ourprocess"></div>
+
             </div>
         </div>
       </div>

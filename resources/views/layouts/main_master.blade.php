@@ -63,7 +63,8 @@
     <nav class="navbar navbar-expand-sm white ">
         <div class="container-fluid justify-content-center">
             <a class="navbar-brand mx-auto" href="#">
-                <img class="log" src="{{asset('refmet/assets/images/logo/logo.png')}}" alt="Logo">
+                {{-- <img class="log" src="{{asset('refmet/assets/images/logo/logo.png')}}" alt="Logo"> --}}
+                <img class="log" src="{{asset('image/logo.png')}}" alt="Logo">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -72,22 +73,22 @@
             <div class="collapse navbar-collapse justify-content-center " id="navbarContent">
                 <ul class="navbar-nav nav-margin-left">
                     <li class="nav-item ">
-                        <a class="nav-link active  fs-4 mx-3 text-green text-underline" href="{{url('/')}}" id="clickable-link">Home</a>
+                        <a class="nav-link  fs-4 mx-3 text-green text-underline" href="{{url('/')}}" id="clickable-link">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link  fs-4 mx-3 text-green text-underline" href="{{url('about')}}" id="clickable-link">About</a>
+                        <a class="nav-link  fs-4 mx-3 text-green text-underline {{ ($active == 'about')?'active':'' }}" href="{{url('/about')}}" id="clickable-link">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link  fs-4 mx-3 text-green text-underline" href="{{url('product')}}" id="clickable-link">Product</a>
+                        <a class="nav-link  fs-4 mx-3 text-green text-underline " href="{{url('/product')}}" id="clickable-link">Product</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link afs-4 mx-3 text-green text-underline" href="{{url('listapprovel')}}" id="clickable-link">Suppliers</a>
+                        <a class="nav-link afs-4 mx-3 text-green text-underline {{ ($active == 'listapprovel')?'active':'' }}" href="{{url('/listapprovel')}}" id="clickable-link">Suppliers</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link  fs-4 mx-3 text-green text-underline d-md-none d-block" href="{{url('contact')}}" id="clickable-link">Contact Us</a>
+                        <a class="nav-link  fs-4 mx-3 text-green text-underline d-md-none d-block" href="{{url('/contact')}}" id="clickable-link">Contact Us</a>
                     </li>
                 </ul>
-                <a class="nav-link fs-4 p-2 btn green yellow btncontact d-md-block d-none" href="{{url('contact')}}" id="clickable-link">Contact Us</a>
+                <a class="nav-link fs-4 p-2 btn green yellow btncontact d-md-block d-none" href="{{url('/contact')}}" id="clickable-link">Contact Us</a>
             </div>
         </div>
     </nav>
@@ -147,12 +148,12 @@
                 <li class="footer-row-second-li"><a class="footer-row-second-a" href="{{'/ferronickelmoly'}}">FERRO NICKEL MOL</a></li>
             </ul> --}}
             <ul>
-                <li class="footer-row-second-li li textjustify"><p><i class="fa-solid fa-location-dot f-icons"></i><strong>Corporate Office Address :</strong> 
+                <li class="footer-row-second-li li textjustify"><p><strong>Corporate Office Address :</strong> 
                     Crown Building &nbsp &nbsp Ashoka Park,Opposite Khamardih Police Station, Near Devkripa Hospital Shankar Nagar
                      Raipur (CG)-492001</p>
                 </li>
-                <li class="footer-row-second-li li textjustify"><p><i class="fa-solid fa-envelope f-icons"></i>kunal@refmet.org</p></li>
-                <li class="footer-row-second-li li textjustify"><p> <i class="fa-solid fa-phone f-icons"></i>98935 94094</p></li>
+                <li class="footer-row-second-li li textjustify"><p><strong>Phone :</strong> 98935 94094</p></li>
+                <li class="footer-row-second-li li textjustify"><p><strong>Email :</strong> kunal@refmet.org</p></li>
             </ul>
 
         </div>
@@ -169,49 +170,46 @@
 
 
 <script src="{{asset('bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js')}}"></script>
+<script>
+ const links = document.querySelectorAll('.text-underline');
+
+// Add click event to each link
+links.forEach(link => {
+    link.addEventListener('click', function (event) {
+        event.preventDefault(); // Prevent default anchor behavior (optional if testing)
+
+        // Remove the active class from all links
+        links.forEach(l => l.classList.remove('active'));
+
+        // Add the active class to the clicked link
+        this.classList.add('active');
+        const targetUrl = this.getAttribute('href');
+        window.location.href = targetUrl;
+    });
+});
+</script>
 {{-- <script>
-    document.addEventListener('DOMContentLoaded', () => {
-      const link = document.getElementById('clickable-link');
+    // Select all navigation links
+    const navLinks = document.querySelectorAll('.text-underline');
 
-      link.addEventListener('click', (event) => {
-        event.preventDefault(); // Prevent default link behavior
-        link.classList.toggle('active'); // Toggle the active class
+    navLinks.forEach(link => {
+      link.addEventListener('click', function (event) {
+        // Prevent default link behavior
+        // event.preventDefault();
+
+        // Remove 'active' class from all links
+        navLinks.forEach(l => l.classList.remove('active'));
+
+        // Add 'active' class to the clicked link
+        this.classList.add('active');
+
+        // Optional: Navigate to the section if needed
+        const target = this.getAttribute('href');
+        // window.location.hash = target;
+        history.pushState(null, '', target);
       });
     });
   </script> --}}
-  {{-- <script>
-    document.addEventListener('DOMContentLoaded', () => {
-      const links = document.querySelectorAll('.text-underline');
-
-      links.forEach(link => {
-        link.addEventListener('click', () => {
-          // Remove 'active' class from all links
-          links.forEach(l => l.classList.remove('active'));
-
-          // Add 'active' class to the clicked link
-          link.classList.add('active');
-        });
-      });
-    });
-  </script> --}}
-  document.querySelectorAll('.text-underline').forEach(link => {
-    link.addEventListener('click', (e) => {
-      e.preventDefault();
-  
-      // Remove 'active' class from all links
-      document.querySelectorAll('.text-underline').forEach(nav => {
-        nav.classList.remove('active');
-      });
-  
-      // Add 'active' class to the clicked link
-      e.target.classList.add('active');
-    });
-  });
-  
-        </script>
-
-{{-- <script> --}}
-
 
 </body>
 </html>

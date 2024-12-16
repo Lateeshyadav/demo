@@ -67,7 +67,7 @@
                         <a class="nav-link active  fs-4 mx-3 text-green text-underline" href="{{url('/')}}">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link fs-4 mx-3 text-green text-underline" href="{{url('about')}}">About</a>
+                        <a class="nav-link fs-4 mx-3 text-green text-underline active" href="{{url('about')}}">About fg</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link fs-4 mx-3 text-green text-underline" href="{{url('product')}}">Product</a>

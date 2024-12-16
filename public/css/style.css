@@ -1,6 +1,7 @@
 body{
     background-color:white;
 } 
+
 .loc{
     padding: 0 5px 0 5px;
 }
@@ -15,7 +16,7 @@ body{
 
 }
 .li{
-    /* display: flex; */
+    display: flex;
     font-size: 18px;
     flex-direction: column;
 }
@@ -61,10 +62,27 @@ body{
   /* .top:hover{
     background-color: rgb(203, 186, 189);;
   } */
+   .test-img{
+    border-radius: 55px;
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+    background-size: 100% 50%;
+    background-image: url(../refmet/demo4/images/01.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+
+   }
    .home-img{
+    border-radius: 55px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-size: 100% 100%;
     background-image: url(../image/home.png);
     background-repeat: no-repeat;
-    background-size: auto;
+    background-position: center;
+    /* background-size: auto; */
    }
    .image-box{
     background-image: url(../refmet/demo4/images/01.jpg);
@@ -231,12 +249,15 @@ body{
     content: '+' ;
 }
 .ourprocess{
-    margin-top: 5%;
+    margin-top: 4%;
     margin-bottom: 5%;
-    height: 550px;
-    width: 95%;
+    min-height: 560px;
+    width: 100%;
     /* margin-left: 20px; */
     object-fit: contain;
+    background-image: url(../image/our-process.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 
 }
 .btnbroucher{
@@ -338,55 +359,36 @@ body{
   }
   .text-underline:hover,
 .text-underline.active {
-  color: #ffcc00;
+  color: #000;
 }
 .text-underline:hover::after,
 .text-underline.active::after {
   width: 100%;
 }
-  /* .nav-link {
+/* .text-underline {
     text-decoration: none;
-    color: #333;
-    font-size: 1.2rem;
-    position: relative;
-    padding-bottom: 5px;
-    margin: 10px;
-    cursor: pointer;
+    color: black;
+    margin: 0 15px;
+    font-size: 18px;
+    padding: 5px;
   }
 
-  .nav-link::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 0;
-    height: 2px;
-    background-color: #007BFF;
-    transition: width 0.3s ease-in-out;
-  } */
-  /* .text-underline.active::after {
-    width: 100%;
-  } */
+  .text-underline.active {
+    text-decoration: underline;
+    font-weight: bold; /* Optional: to highlight active link */
+  /* } */
 
-  .textgreen{
-    color: #024430;
-  }
+  /* .text-underline:hover { */
+    /* text-decoration: underline; Optional: hover effect for all links */
+  /* }  */
+
+ 
+
+.textgreen{
+color: #024430;
+}
   
-
-  /* On hover, expand the underline */
-  /* .text-underline:hover::after {
-    width: 100%;
-  } 
-  .text-underline.active::after {
-    width: 100%;
-  } */
-   /* .nav-link:hover, .nav-link.active {
-    color: #FFE7BB; 
-  } 
-   .nav-link:hover::after, .nav-link.active::after {
-    width: 100%;
-  } */
-  .main-box{
+.main-box{
     height: 350px;
     margin-top: -1%;
 }
@@ -419,6 +421,9 @@ body{
 .productname{
     margin-top: 13%;
 }
+.yellow:hover{
+    color: #FFE7BB;
+}
 
 
 
@@ -428,11 +433,14 @@ body{
     /* .log{
         width: 5vw;
     } */
+     .ourprocess{
+        background-size: 100% 79%;
+     }
     .outline-span{
-        font-size: 20px;
+        font-size: 50px;
         position: absolute;
-        margin-top: 9%;
-        margin-left: 3.4%;
+        margin-top: 11%;
+        margin-left: -4.4%;
     }
     .btnbroucher{
         background-color: #024430;
@@ -482,6 +490,7 @@ body{
         font-size: calc(0.3rem + 0.3vw) !important;
     }
     .text-underline{
+        font-size: 17px;
 
     }
     /* a.nav-link{
@@ -562,6 +571,10 @@ body{
 
 /* Medium devices (max-width: 768px) */
 @media  (max-width: 768px) {
+    .text-underline{
+        font-size: 17px;
+
+    }
     .loc{
         padding: 0 3px 0 3px;
     }
@@ -705,6 +718,7 @@ body{
     .yellow{
         font-size: 20px;
     }
+   
     .textjustify{
         font-size: 12px;
     }

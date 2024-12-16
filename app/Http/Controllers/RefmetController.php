@@ -8,13 +8,19 @@ class RefmetController extends Controller
 {
     //
     public function home(){
+
+ 
         return view('home');
     }
     public function about(){
-        return view('about');
+
+        $active = 'about';
+        return view('about',compact('active'));
     }
     public function product(){
-        return view('product');
+
+        $active = 'active';
+        return view('product',compact('active'));
     }
     public function contact(){
         return view('contact');
@@ -31,7 +37,8 @@ class RefmetController extends Controller
         return view('serviceweoffer');
     }
     public function listapprovel(){
-        return view('listapprovel');
+        $active = 'listapprovel';
+        return view('listapprovel',compact('active'));
     }
 
     // product

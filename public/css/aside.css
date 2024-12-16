@@ -30,10 +30,15 @@
     font-weight: bold;
     
 }
-.widget-a:hover{
+/* .widget-a:hover{
     
     background-color: #024430;
     color: #FFE7BB;
+} */
+.widget-a.active{
+    background-color: #024430;
+    color: #FFE7BB;
+
 }
 .widget-i{
     position: absolute;
