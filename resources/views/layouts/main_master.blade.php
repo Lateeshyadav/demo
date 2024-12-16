@@ -73,22 +73,22 @@
             <div class="collapse navbar-collapse justify-content-center " id="navbarContent">
                 <ul class="navbar-nav nav-margin-left">
                     <li class="nav-item ">
-                        <a class="nav-link  fs-4 mx-3 text-green text-underline" href="{{url('/')}}" id="clickable-link">Home</a>
+                        <a class="nav-link  fs-4 mx-3 text-green text-underline {{ ($active == 'home')?'active':'' }}" href="{{url('/')}}" id="clickable-link">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link  fs-4 mx-3 text-green text-underline {{ ($active == 'about')?'active':'' }}" href="{{url('/about')}}" id="clickable-link">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link  fs-4 mx-3 text-green text-underline " href="{{url('/product')}}" id="clickable-link">Product</a>
+                        <a class="nav-link  fs-4 mx-3 text-green text-underline  {{ ($active == 'product')?'active':'' }}" href="{{url('/product')}}" id="clickable-link">Product</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link afs-4 mx-3 text-green text-underline {{ ($active == 'listapprovel')?'active':'' }}" href="{{url('/listapprovel')}}" id="clickable-link">Suppliers</a>
+                        <a class="nav-link afs-4 mx-3 text-green text-underline {{ ($active == 'suppliers')?'active':'' }}" href="{{url('/suppliers')}}" id="clickable-link">Suppliers</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link  fs-4 mx-3 text-green text-underline d-md-none d-block" href="{{url('/contact')}}" id="clickable-link">Contact Us</a>
+                        <a class="nav-link  fs-4 mx-3 text-green text-underline d-md-none d-block {{ ($active == 'contact')?'active':'' }}" href="{{url('/contact')}}" id="clickable-link">Contact Us</a>
                     </li>
                 </ul>
-                <a class="nav-link fs-4 p-2 btn green yellow btncontact d-md-block d-none" href="{{url('/contact')}}" id="clickable-link">Contact Us</a>
+                <a class="nav-link fs-4 p-2 btn green yellow btncontact d-md-block d-none {{ ($active == 'contact')?'active':'' }}" href="{{url('/contact')}}" id="clickable-link">Contact Us</a>
             </div>
         </div>
     </nav>

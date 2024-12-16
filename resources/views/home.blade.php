@@ -41,28 +41,28 @@
             <div class="col-md-3 col-12">
                 <div class="card card-btn ">
                     <div class="card-body bg-success cardbody">
-                        <a href="{{url('whatwebuy')}}" class=" text-decoration-none card-a">WHAT WE BUY</a>
+                        <a href="{{url('whatwebuy')}}" class=" text-decoration-none card-a {{ ($active == 'whatwebuy')?'active':'' }}">WHAT WE BUY</a>
                     </div>
                 </div>
             </div>
             <div class="col-md-3 col-12 ">
                 <div class="card card-btn " >
                     <div class="card-body bg-success cardbody">
-                        <a href="{{url('whatwesell')}}" class=" text-decoration-none  card-a">WHAT WE SELL</a>
+                        <a href="{{url('whatwesell')}}" class=" text-decoration-none  card-a {{ ($active == 'whatwesell')?'active':'' }}">WHAT WE SELL</a>
                     </div>
                 </div>
             </div>
             <div class="col-md-3 col-12">
                 <div class="card card-btn" >
                     <div class="card-body bg-success cardbody">
-                        <a href="{{url('serviceweoffer')}}" class=" text-decoration-none  card-a ">SERVICE WE OFFER</a>
+                        <a href="{{url('serviceweoffer')}}" class=" text-decoration-none  card-a {{ ($active == 'serviceweoffer')?'active':'' }}">SERVICE WE OFFER</a>
                     </div>
                 </div>
             </div>
             <div class="col-md-3 col-12">
                 <div class="card card-btn">
                     <div class="card-body bg-success cardbody">
-                        <a href="{{url('listapprovel')}}" class=" text-decoration-none  card-a">LIST OF APPROVALS</a>
+                        <a href="{{url('listapprovel')}}" class=" text-decoration-none  card-a {{ ($active == 'listofapprovals')?'active':'' }}">LIST OF APPROVALS</a>
                     </div>
                 </div>
             </div>

@@ -24,6 +24,7 @@ Route::controller(RefmetController::class)->group(function(){
     Route::get('/about','about');
     Route::get('/product','product');
     Route::get('/contact','contact');
+    Route::get('/suppliers','suppliers');
 
     Route::get('/whatwebuy','whatwebuy');
     Route::get('/whatwesell','whatwesell');

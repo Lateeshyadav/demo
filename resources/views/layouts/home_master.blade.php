@@ -99,7 +99,7 @@
                         <a class="nav-link   fs-4 mx-3 text-green text-underline" href="{{url('/product')}}" id="clickable-link">Product</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link  fs-4 mx-3 text-green text-underline" href="{{url('/listapprovel')}}" id="clickable-link">Suppliers</a>
+                        <a class="nav-link  fs-4 mx-3 text-green text-underline" href="{{url('/suppliers')}}" id="clickable-link">Suppliers</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link  fs-4 mx-3 text-green text-underline d-md-none d-block" href="{{url('/contact')}}" id="clickable-link">Contact Us</a>

@@ -27,34 +27,34 @@
 
     <ul class="list-unstyled widget-ul">
                 <li class="widget-li">
-        <a href="{{url('/zslagcan')}}"class="text-decoration-none widget-a"><span>Z-Slag Can  </span><i class="fa-solid fa-arrow-right widget-i"></i></a>
+        <a href="{{url('/zslagcan')}}"class="text-decoration-none widget-a {{ ($active == 'zslagcan')?'active':'' }}"><span>Z-Slag Can  </span><i class="fa-solid fa-arrow-right widget-i"></i></a>
       </li>
                 <li class="widget-li">
-        <a href="{{url('/zslagcaal50')}}"class="text-decoration-none widget-a"><span>Z-Slag CA-AL50</span><i class="fa-solid fa-arrow-right widget-i"></i></a>
+        <a href="{{url('/zslagcaal50')}}"class="text-decoration-none widget-a {{ ($active == 'zslagcaal50')?'active':'' }}"><span>Z-Slag CA-AL50</span><i class="fa-solid fa-arrow-right widget-i"></i></a>
       </li>
                 <li class="widget-li">
-        <a href="{{url('/zslagcaal20')}}"class="text-decoration-none widget-a"><span>Z-Slag CA-AL20</span><i class="fa-solid fa-arrow-right widget-i"></i></a>
+        <a href="{{url('/zslagcaal20')}}"class="text-decoration-none widget-a {{ ($active == 'zslagcaal20')?'active':'' }}"><span>Z-Slag CA-AL20</span><i class="fa-solid fa-arrow-right widget-i"></i></a>
       </li>
                 <li class="widget-li">
-        <a href="{{url('/slagkills')}}"class="text-decoration-none widget-a"><span>SLAG KILL 100</span><i class="fa-solid fa-arrow-right widget-i"></i></a>
+        <a href="{{url('/slagkills')}}"class="text-decoration-none widget-a {{ ($active == 'slagkills')?'active':'' }}"><span>SLAG KILL 100</span><i class="fa-solid fa-arrow-right widget-i"></i></a>
       </li>
                 <li class="widget-li">
-        <a href="{{url('/ferronickel')}}"class="text-decoration-none widget-a"><span>FERRO NICKEL</span><i class="fa-solid fa-arrow-right widget-i"></i></a>
+        <a href="{{url('/ferronickel')}}"class="text-decoration-none widget-a {{ ($active == 'ferronickel')?'active':'' }}"><span>FERRO NICKEL</span><i class="fa-solid fa-arrow-right widget-i"></i></a>
       </li>
                 <li class="widget-li">
-        <a href="{{url('/ferronickelmoly')}}"class="text-decoration-none widget-a"><span>FERRO NICKEL MOLY</span><i class="fa-solid fa-arrow-right widget-i"></i></a>
+        <a href="{{url('/ferronickelmoly')}}"class="text-decoration-none widget-a {{ ($active == 'ferronickelmoly')?'active':'' }}"><span>FERRO NICKEL MOLY</span><i class="fa-solid fa-arrow-right widget-i"></i></a>
       </li>
                 <li class="widget-li">
-        <a href="{{url('/calciummolybdatecm')}}"class="text-decoration-none widget-a"><span>CALCIUM MOLYBDATE (CM)</span><i class="fa-solid fa-arrow-right widget-i"></i></a>
+        <a href="{{url('/calciummolybdatecm')}}"class="text-decoration-none widget-a {{ ($active == 'calciummolybdatecm')?'active':'' }}"><span>CALCIUM MOLYBDATE (CM)</span><i class="fa-solid fa-arrow-right widget-i"></i></a>
       </li>
                 <li class="widget-li">
-        <a href="/ferrovanadium"class="text-decoration-none widget-a"><span>FERRO VANADIUM</span><i class="fa-solid fa-arrow-right widget-i"></i></a>
+        <a href="/ferrovanadium"class="text-decoration-none widget-a {{ ($active == 'ferrovanadium')?'active':'' }}"><span>FERRO VANADIUM</span><i class="fa-solid fa-arrow-right widget-i"></i></a>
       </li>
                 <li class="widget-li">
-        <a href="{{url('/nickleoxidecobaltoxide')}}"class="text-decoration-none widget-a"><span>NICKLE OXIDE & COBALT OXIDE</span><i class="fa-solid fa-arrow-right widget-i"></i></a>
+        <a href="{{url('/nickleoxidecobaltoxide')}}"class="text-decoration-none widget-a {{ ($active == 'nickleoxidecobaltoxide')?'active':'' }}"><span>NICKLE OXIDE & COBALT OXIDE</span><i class="fa-solid fa-arrow-right widget-i"></i></a>
       </li>
                 <li class="widget-li">
-        <a href="{{url('/tungstenvanaduimpent')}}" class="text-decoration-none widget-a"><span>TUNGSTEN OXIDE & VANADIUM PENTOXIDE</span><i class="fa-solid fa-arrow-right widget-i"></i></a>
+        <a href="{{url('/tungstenvanaduimpent')}}" class="text-decoration-none widget-a {{ ($active == 'nickleoxidecobaltoxide')?'active':'' }}"><span>TUNGSTEN OXIDE & VANADIUM PENTOXIDE</span><i class="fa-solid fa-arrow-right widget-i"></i></a>
       </li>
 
      
