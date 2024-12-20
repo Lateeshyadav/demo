@@ -14,7 +14,7 @@
                     <li><a href="#" class="btn btn-green  p-3 btna ">LIST OF APPROVALS</a></li>
                 </ul> --}}
                 <div class="text-about">
-                    <h2 class="text-center text-green textinfo-h1 h1-info">Refracast Metallurgicals Pvt.Ltd.</h2>
+                    <h2 class="text-center text-green textinfo-h3 h1-info">Refracast Metallurgicals Pvt.Ltd.</h2>
                 </div>
             </div>
         </div>
@@ -22,11 +22,11 @@
 </section>
 <!-- WHAT SERVICES WE OFFER info -->
 <section class="container textinfo ">
-    <p class="h1  text-green textinfo-h1">WHAT SERVICES WE OFFER</p>
+    <p class="h1  text-green textinfo-h1 pleft">WHAT SERVICES WE OFFER</p>
     <!-- <p class="h1 text-center text-opacity mt-2">The Visionary Drive of Mr. Arnab Roy</p> -->
      <!-- <p class="h4">We are actively seeking material containing.</p> -->
      <!-- <p class="h4">Nickel, Cobalt, Molybdenum, Vanadium, Tungsten, and Zinc in the following forms:</p> -->
-     <ul>
+     <ul class="uleft">
         <li class="h4  textjustify textinfo-h1-p"><strong>Metal Reclamation:</strong> We specialize in reclaiming metals from rejected industrial precursors.</li>
         <li class="h4  textjustify textinfo-h1-p"><strong>Circular Economy Implementation:</strong> We facilitate the implementation of circular economy practices 
             specifically for metals in spent catalysts.</li>

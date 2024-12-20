@@ -19,9 +19,9 @@
         <div class="container mt-5 product-top">
             <div class="row">
                 <div class="col-sm-6">
-                  <img src="{{ asset('refmet/demo4/assets/images/case-studies/TUNGSTEN-OXIDE.jpg') }}" alt="" class="img" style="align-items: center">
-                    <h4 class="yellow">TUNGSTEN OXIDE</h4>
-                    <h4 class="darkgreen">Nx35</h4>
+                  <img src="{{ asset('product_img/TUNGSTEN-OXIDE.jpg') }}" alt="" class="img" style="align-items: center">
+                    <h4 class="yellow fontf">TUNGSTEN OXIDE</h4>
+                    <h4 class="darkgreen fontf">Nx35</h4>
                     <p class="textjustify p">Tungsten oxide is an oxide compound of tungsten and oxygen. This compound is
                         usually used as a host raw material for optical materials. Because it offers unique optical
                         properties as smaller scales, it can be used in a variety of applications. It can be used to produce
@@ -29,7 +29,7 @@
                     <p class="textjustify p">Tungsten oxideis an abundant, versatile oxide that is widely explored for
                         catalysis, sensing, electrochromic devices, and numerous other applications.</p>
 
-                        <h5 class="yellow">Properties of Tungsten oxide Wo<sub>3</sub></h5>
+                        <h5 class="yellow fontf">Properties of Tungsten oxide Wo<sub>3</sub></h5>
 
 
                         <table class="table table-bordered">
@@ -103,14 +103,14 @@
 
                 </div>
                 <div class="col-sm-6">
-                  <img src="{{ asset('refmet/demo4/assets/images/case-studies/VANADIUM-PENTOXIDE.jpg') }}" alt="" class="img">
-                  <h4 class="yellow">VANADIUM PENTOXIDE</h4>
-                  <h4 class="darkgreen">Wn38</h4>
+                  <img src="{{ asset('product_img/VANADIUM-PENTOXIDE.jpg') }}" alt="" class="img">
+                  <h4 class="yellow fontf">VANADIUM PENTOXIDE</h4>
+                  <h4 class="darkgreen fontf">Wn38</h4>
                   <p class="textjustify p">Vanadium pentoxide (V205) is a compound composed of vanadium and oxygen atoms.</p>
                   <p class="textjustify p">Tungsten oxideis an abundant, versatile oxide that is widely explored for
                       catalysis, sensing, electrochromic devices, and numerous other applications.</p>
 
-                      <h5 class="yellow">Properties of Vanadium Pentoxide (V205):</h5>
+                      <h5 class="yellow fontf">Properties of Vanadium Pentoxide (V205):</h5>
 
 
                       <table class="table table-bordered">
@@ -185,7 +185,7 @@
                             
                         </tbody>
                     </table>
-                    <h4 class="yellow">Applications of Vanadium Pentoxide (V205):</h4>
+                    <h4 class="yellow fontf">Applications of Vanadium Pentoxide (V205):</h4>
                     <ul>
                         <li> Catalyst:</li>
                         <li> Ceramics and Glass:</li>

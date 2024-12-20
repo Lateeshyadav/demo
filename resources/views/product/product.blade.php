@@ -4,7 +4,7 @@
 <div class="container-fluid p-5  text-white text-center product-top">
     <div class="row"> 
         <div class="col-md-4 col-12">
-            <img src="{{asset('refmet/demo4/assets/images/case-studies/Z-Slag-Can.jpg')}}" alt="" class="img">
+            <img src="{{asset('product_img/Z-Slag-Can.jpg')}}" alt="" class="img">
         </div>
         <div class="col-md-8 col-12"> 
           <div class="productname">

@@ -3,27 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome, Firefox, Safari,">
+    <meta name="author" content="Rays it & design world">
+    <meta name="description" content="Refmet">
+    <meta name="keywords" content="Refmet">
+    <meta name="robots" content="Refmet">
     <title>Refmet</title>
     <link rel="stylesheet" href="{{asset('bootstrap-5.3.3-dist/css/bootstrap.css')}}">
     <link rel="stylesheet" href="{{asset('FontAwsome_v6/css/all.css')}}">
     <link rel="stylesheet" href="{{asset('css/demo.css')}}">
     <link rel="stylesheet" href="{{asset('css/style.css')}}">
     <link rel="stylesheet" href="{{asset('css/aside.css')}}">
-    {{-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"> --}}
-
+    <link rel="icon" type="image/png" sizes="32x32" href="{{asset('image/favicon.png')}}">  
     <link href="{{asset('public/refmet/assets/images/favicon/favicon.png')}}" rel="icon">
-  <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css?family=Roboto:400,500,700%7cTeko:400,500,600,700&display=swap">
-  {{-- <link rel="stylesheet" href="{{asset('refment/assets/css/libraries.css')}}"> --}}
-  {{-- <link rel="stylesheet" href="{{asset('refmet/assets/css/style.css')}}"> --}}
-  {{-- <link rel="stylesheet" href="{{asset('refmet/assets/bs/css/bootstrap.css')}}"> --}}
-  {{-- <link rel="stylesheet" href="{{asset('refmet/style.css')}}"> --}}
-  {{-- <link rel="stylesheet" href="{{asset('refmet/timeline.css')}}"> --}}
-  {{-- <link rel="stylesheet" href="{{asset('refmet/timelinefirst.css')}}"> --}}
-  {{-- <link rel="stylesheet" href="{{asset('refmet/countercss.css')}}"> --}}
-  {{-- <link rel="stylesheet" href="{{asset('refmet/media.css')}}"> --}}
-  {{-- <link rel="stylesheet" href="{{asset('refmet/assets/bs/FontAwsome_v6/css/all.css')}}"> --}}
-  <link rel="stylesheet" href="https://unpkg.com/bs-brain@2.0.4/tutorials/timelines/timeline-4/assets/css/timeline-4.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,500,700%7cTeko:400,500,600,700&display=swap">  
+    <link rel="stylesheet" href="https://unpkg.com/bs-brain@2.0.4/tutorials/timelines/timeline-4/assets/css/timeline-4.css">
 
     <style>
          @media(max-width:576px){
@@ -77,7 +71,7 @@
     </nav>
 
     <!-- Main Navbar -->
-    <div class="stickytop">
+    <div class="stickytop shadow">
     <nav class="navbar navbar-expand-sm white">
         <div class="container-fluid justify-content-center">
             <a class="navbar-brand mx-auto" href="#">
@@ -118,7 +112,7 @@
         <div class="row">
             <div class="col-md-12 green position-relative main-box" style="">
                 <div class="box mt-5 position-absolute translate-middle" style="">
-                    <img src="{{asset('image/list-of-approvals.png')}}" alt="" class="img-fluid imgsize">
+                    <img src="{{asset('image/products.png')}}" alt="" class="img-fluid imgsize">
                     {{-- <ul class="list-unstyled d-flex justify-content-center btnul position-absolute">
                         <li><a href="#" class="btn btn-green  p-3 px-5 btna btnax">WHAT WE BUY</a></li>
                         <li><a href="#" class="btn btn-green  p-3 px-5  btna btnax">WHAT WE SELL</a></li>
@@ -126,7 +120,7 @@
                         <li><a href="#" class="btn btn-green  p-3 btna ">LIST OF APPROVALS</a></li>
                     </ul> --}}
                     <div class="text-about">
-                      <h2 class="text-center text-green textinfo-h1 h1-textinfo">Refracast Metallurgicals Pvt.Ltd.</h2>
+                      <h2 class="text-center text-green textinfo-h3 h1-textinfo">Refracast Metallurgicals Pvt.Ltd.</h2>
                   </div>
                 </div>
             </div>
@@ -155,10 +149,10 @@
                 </form> --}}
             </div>
         </div>
-        <div class="row bg-white footer-row-second" style="border-radius: 50px 50px 0 0;">
-            <div class="col-md-4 col-12 ps-5">
-                <img src="{{asset('refmet/assets/images/logo/logo.png')}}" alt="" style="width: 40%;" class="mb-4">
-                <p class=" h5 textjustify footer-p">Refracast Metallurgicals Pvt Ltd (RMPL) 
+        <div class="row bg-white footer-row-second px-2" style="border-radius: 50px 50px 0 0;">
+            <div class="col-md-4  col-12 ">
+                <img src="{{asset('image/logo.png')}}" alt="" style="width: ;" class="mb-4 log-f">
+                <p class=" h5 textjustify darkgreen footer-p">Refracast Metallurgicals Pvt Ltd (RMPL) 
                     stands as a prominent leader in the 
                     metallurgical industry, specializing in spent 
                     catalyst recycling and innovative solutions for 
@@ -169,59 +163,58 @@
                     development, setting us apart as a trendsetter 
                     in the industry</p>
             </div>
-            <div class="col-md-4 ps-5 col-6 text-center">
-                <h1 class="mb-5 mt-4 ms-4 footer-h">Company</h1>
-                <ul>
-                    <li class="footer-row-second-li"><a class="footer-row-second-a" href="/refmet.html">Home</a></li>
-                    <li class="footer-row-second-li"><a class="footer-row-second-a" href="/about.html">About</a></li>
-                    <li class="footer-row-second-li"><a class="footer-row-second-a" href="">Career</a></li>
-                    <li class="footer-row-second-li"><a class="footer-row-second-a" href="">Team</a></li>
-                    <li class="footer-row-second-li"><a class="footer-row-second-a" href="{{'/contact'}}">Contact</a></li>
-                    <li class="footer-row-second-li"><a class="footer-row-second-a" href="">FAQ</a></li>
+            <div class="col-md-2 col-12 " >
+                <h1 class="  f-company">Company</h1>
+                <ul class="">
+                    <li class="footer-row-second-li fli"><a class="footer-row-second-a" href="{{'/'}}">Home</a></li>
+                    <li class="footer-row-second-li fli"><a class="footer-row-second-a" href="{{'/about'}}">About</a></li>
+                    <li class="footer-row-second-li fli"><a class="footer-row-second-a" href="{{'/product'}}">Product</a></li>
+                    <li class="footer-row-second-li fli"><a class="footer-row-second-a" href="{{'/suppliers'}}">Suppliers</a></li>
+                    <li class="footer-row-second-li fli"><a class="footer-row-second-a" href="{{'/contact'}}">Contact</a></li>
+                    {{-- <li class="footer-row-second-li fli"><a class="footer-row-second-a" href="">FAQ</a></li> --}}
                 </ul>
             </div>
-            <div class="col-md-4 col-6">
-                <h1 class="mb-5 mt-4 ms-5 footer-h">Location</h1>
-                {{-- <ul>
-                    <li class="footer-row-second-li"><a class="footer-row-second-a" href="{{'/zslagcan'}}">Z-Slag Can</a></li>
-                    <li class="footer-row-second-li"><a class="footer-row-second-a" href="{{'/zslagcaal50'}}">Z-Slag CA-AL50</a></li>
-                    <li class="footer-row-second-li"><a class="footer-row-second-a" href="{{'/zslagcaal20'}}">Z-Slag CA-AL20</a></li>
+            <div class="col-md-2 col-12 ">
+                <h1 class=" f-company">Products</h1>
+                <ul>
+                    <li class="footer-row-second-li"><a class="footer-row-second-a" href="{{'/zslagcan'}}">Z-SLAG CAN</a></li>
+                    <li class="footer-row-second-li"><a class="footer-row-second-a" href="{{'/zslagcaal50'}}">Z-SLAG CA-AL50</a></li>
+                    <li class="footer-row-second-li"><a class="footer-row-second-a" href="{{'/zslagcaal20'}}">Z-SLAG CA-AL20</a></li>
                     <li class="footer-row-second-li"><a class="footer-row-second-a" href="{{'/slagkills'}}">SLAG KILL 100</a></li>
                     <li class="footer-row-second-li"><a class="footer-row-second-a" href="{{'/ferronickel'}}">FERRO NICKEL</a></li>
                     <li class="footer-row-second-li"><a class="footer-row-second-a" href="{{'/ferronickelmoly'}}">FERRO NICKEL MOL</a></li>
-                </ul> --}}
+                </ul>
+            </div>
+            <div class="col-md-4 col-12  ">
+                <h1 class=" footer-h">Location</h1>                
                 <ul>
-                    <li class="footer-row-second-li li textjustify"><p><strong>Corporate Office Address :</strong> 
+                    <li class="footer-row-second-li"><p class="footer-row-second-P textjustify pe-2"><strong>Corporate Office Address :</strong> 
                         Crown Building &nbsp &nbsp Ashoka Park,Opposite Khamardih Police Station, Near Devkripa Hospital Shankar Nagar
                          Raipur (CG)-492001</p>
                     </li>
-                    <li class="footer-row-second-li li textjustify"><p><strong>Phone :</strong> 98935 94094</p></li>
-                    <li class="footer-row-second-li li textjustify"><p><strong>Email :</strong> kunal@refmet.org</p></li>
+                    <li class="footer-row-second-li"><p class="footer-row-second-P"><strong>Phone :</strong> 98935 94094</p></li>
+                    <li class="footer-row-second-li"><p class="footer-row-second-P"><strong>Email :</strong> kunal@refmet.org</p></li>
                 </ul>
+
             </div>
             <hr class="mt-5">
         </div>
                
         <div class="row bg-white">
             <div class="col-md-12">
-                <h5 class="text-center mt-0 footer-copy">Copyright © 2022 - 2024. Refracast Metallurgicals Pvt. Ltd. | All Rights Reserved.</h5>
+                <h5 class="text-center mt-0 footer-copy">Copyright © 2024. RAYS IT & DESIGN WORLD PVT. LTD. | All Rights Reserved.</h5>
             </div>
         </div>
      </div>
-    <!-- footer end -->
+    <!-- footer end -->  
   
   
-  
-  
-  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> -->
+ 
   <script src="{{asset('bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js')}}"></script>
 
   <script src="{{asset('refmet/assets/js/jquery-3.3.1.min.js')}}"></script>
   <script src="{{asset('refmet/assets/js/plugins.js')}}"></script>
-  {{-- <script src="{{asset('refmet/assets/js/main.js')}}"></script> --}}
-  {{-- <script src="{{asset('refmet/assets/bs/js/bootstrap.bundle.js')}}"></script> --}}
-  {{-- <script src="{{asset('refmet/assets/bs/FontAwsome_v6/js/fontawesome.min.js')}}"></script> --}}
+  
   <script src="{{asset('refmet/assets/bs/FontAwsome_v6/js/fontawesome.min.js')}}"></script>
   <script>
       const links = document.querySelectorAll('.text-underline');
@@ -241,28 +234,7 @@ links.forEach(link => {
     });
 });
   </script>
-   {{-- <script>
-    // Select all navigation links
-    const navLinks = document.querySelectorAll('.text-underline');
-
-    navLinks.forEach(link => {
-      link.addEventListener('click', function (event) {
-        // Prevent default link behavior
-        // event.preventDefault();
-
-        // Remove 'active' class from all links
-        navLinks.forEach(l => l.classList.remove('active'));
-
-        // Add 'active' class to the clicked link
-        this.classList.add('active');
-
-        // Optional: Navigate to the section if needed
-        const target = this.getAttribute('href');
-        // window.location.hash = target;
-        history.pushState(null, '', target);
-      });
-    });
-  </script> --}}
+   
   
   </body>
   </html>

@@ -3,9 +3,14 @@
 
 @section('content')
 <style>
+  .cardbodys{
+    min-height: 168px
+
+  }
   @media(max-width:768px){
-   .card-body{
-     min-width: 360px;
+   .card-bodys{
+     /* min-width: 360px; */
+     /* min-height: 400px */
    }
    .contact-icons{
      font-size: 31px;
@@ -13,8 +18,13 @@
    }
   } 
   @media(max-width:576px){
+    .cardbodys{
+    min-height: 168px;
+    /* text-align: justify; */
+
+  }
    .h1-textinfo{
-     margin-top: -13%;
+     margin-top: -21%;
      margin-left: -49px
    }
    .textinfo{
@@ -32,6 +42,7 @@
    }
    .get-h1{
      font-size: 30px;
+     font-family: fantasy
    }
    .text-underline{
      position:inherit;
@@ -56,7 +67,7 @@
   <div class="row">
       <div class="col-md-12 green position-relative main-box" style="">
           <div class="box mt-5 position-absolute translate-middle" style="">
-              <img src="{{asset('image/home.png')}}" alt="" class="img-fluid imgsize">
+              <img src="{{asset('image/refmet-contactus (1).png')}}" alt="" class="img-fluid imgsize">
               {{-- <ul class="list-unstyled d-flex justify-content-center btnul position-absolute">
                   <li><a href="#" class="btn btn-green  p-3 px-5 btna btnax">WHAT WE BUY</a></li>
                   <li><a href="#" class="btn btn-green  p-3 px-5  btna btnax">WHAT WE SELL</a></li>
@@ -64,23 +75,23 @@
                   <li><a href="#" class="btn btn-green  p-3 btna ">LIST OF APPROVALS</a></li>
               </ul> --}}
               <div class="text-about">
-                <h2 class="text-center text-green textinfo-h1 h1-textinfo">Refracast Metallurgicals Pvt.Ltd.</h2>
+                <h2 class="text-center text-green textinfo-h3 h1-textinfo">Refracast Metallurgicals Pvt.Ltd.</h2>
             </div>
           </div>
       </div>
   </div>
 </section>
 <!-- contactus info -->
-<section class="container textinfo ">
-  <p class="h1  text-green  get-h1">Get In Tuch</p>
-   <p class="h5  text-opacity mt-2">Send us your queries and we will try to answer them as soon as possible.</p>
+<section class="container textinfo px-5">
+  <p class="h1  text-green  get-h1 textinfo-h1">Get In Tuch</p>
+   <p class="h5  text-opacity mb-4 mt-2">Send us your queries and we will try to answer them as soon as possible.</p>
   
    <div class="row">
     <div class="col-md-6">
-      <div class="card shadow">
-        <div class="card-body">
+      <div class="card shadow ">
+        <div class="card-body cardbodys">
           <div class="container">
-            <div class="row">
+            <div class="row ">
               <div class="col-2">
                 {{-- <img src="" alt=""> --}}
                 <a href="" class="contact-icons"><i class="fa-solid fa-map-location-dot"></i></a>
@@ -96,7 +107,7 @@
     </div>
     <div class="col-md-6 colmt">
       <div class="card shadow">
-        <div class="card-body">
+        <div class="card-body cardbodys">
           <div class="container">
             <div class="row">
               <div class="col-2">

@@ -28,7 +28,11 @@
     font-weight: 600;
     color: #024430;
     font-weight: bold;
+    /* font-family: fantasy; */
     
+}
+.fontf{
+    font-family: fantasy;
 }
 /* .widget-a:hover{
     

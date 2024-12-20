@@ -24,10 +24,10 @@
                     {{-- <div class="home-img"></div> --}}
                     <d class="d-md-block d-none">
                         <ul class="list-unstyled d-flex justify-content-center btnul position-absolute ">
-                            <li><a href="{{url('whatwebuy')}}" class="btn btn-green  p-3 px-5 btna btnax">WHAT WE BUY</a></li>
-                            <li><a href="{{url('whatwesell')}}" class="btn btn-green  p-3 px-5  btna btnax">WHAT WE SELL</a></li>
-                            <li><a href="{{url('serviceweoffer')}}" class="btn btn-green  p-3 btna ">SERVICE WE OFFER</a></li>
-                            <li><a href="{{url('listapprovel')}}" class="btn btn-green  p-3 btna ">LIST OF APPROVALS</a></li>
+                            <li><a href="{{url('whatwebuy')}}" class="bgreen btn-green   p-3 px-5 btna btnax {{ ($active == 'home')?'active':'' }}">WHAT WE BUY</a></li>
+                            <li><a href="{{url('whatwesell')}}" class=" btn-green bgreen  p-3 px-5  btna btnax {{ ($active == 'home')?'active':'' }}">WHAT WE SELL</a></li>
+                            <li><a href="{{url('serviceweoffer')}}" class=" btn-green bgreen  p-3 btna {{ ($active == 'home')?'active':'' }}">SERVICE WE OFFER</a></li>
+                            <li><a href="{{url('listapprovel')}}" class=" btn-green bgreen  p-3 btna {{ ($active == 'home')?'active':'' }} ">LIST OF APPROVALS</a></li>
                         </ul>
                     </d>
                     
@@ -40,53 +40,94 @@
         <div class="row">
             <div class="col-md-3 col-12">
                 <div class="card card-btn ">
-                    <div class="card-body bg-success cardbody">
-                        <a href="{{url('whatwebuy')}}" class=" text-decoration-none card-a {{ ($active == 'whatwebuy')?'active':'' }}">WHAT WE BUY</a>
+                    <div class="card-body green cardbody">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-4">
+                                    <img src="{{asset('image/what-we-buy.png')}}" alt="" class="cardimg" >
+                                </div>
+                                <div class="col-8">
+                                    <a href="{{url('whatwebuy')}}" class=" text-decoration-none card-a {{ ($active == 'home')?'active':'' }}">WHAT WE BUY</a>
+                                    {{-- <a href="{{url('whatwebuy')}}" class=" text-decoration-none card-btn {{ ($active == 'home')?'active':'' }}">WHAT WE BUY</a> --}}
+                                </div>
+                            </div>
+                        </div>
+                        
                     </div>
                 </div>
             </div>
             <div class="col-md-3 col-12 ">
                 <div class="card card-btn " >
-                    <div class="card-body bg-success cardbody">
-                        <a href="{{url('whatwesell')}}" class=" text-decoration-none  card-a {{ ($active == 'whatwesell')?'active':'' }}">WHAT WE SELL</a>
+                    <div class="card-body green cardbody">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-4">
+                                    <img src="{{asset('image/what-we-sell.png')}}" alt="" class="cardimg" >
+                                </div>
+                                <div class="col-8">
+                                    <a href="{{url('whatwesell')}}" class=" text-decoration-none  card-a {{ ($active == 'home')?'active':'' }}">WHAT WE SELL</a>
+                                </div>
+                            </div>
+                        </div>
+                        
                     </div>
                 </div>
             </div>
             <div class="col-md-3 col-12">
                 <div class="card card-btn" >
-                    <div class="card-body bg-success cardbody">
-                        <a href="{{url('serviceweoffer')}}" class=" text-decoration-none  card-a {{ ($active == 'serviceweoffer')?'active':'' }}">SERVICE WE OFFER</a>
+                    <div class="card-body green cardbody">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-4">
+                                    <img src="{{asset('image/what-services-we-offer.png')}}" alt="" class="cardimg" >
+                                </div>
+                                <div class="col-8">
+                                    <a href="{{url('serviceweoffer')}}" class=" text-decoration-none  card-a {{ ($active == 'home')?'active':'' }}">SERVICE WE OFFER</a>
+                                </div>
+                            </div>
+                        </div>
+                        
                     </div>
                 </div>
             </div>
             <div class="col-md-3 col-12">
                 <div class="card card-btn">
-                    <div class="card-body bg-success cardbody">
-                        <a href="{{url('listapprovel')}}" class=" text-decoration-none  card-a {{ ($active == 'listofapprovals')?'active':'' }}">LIST OF APPROVALS</a>
+                    <div class="card-body green cardbody">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-4">
+                                    <img src="{{asset('image/list-of-approvals.png')}}" alt="" class="cardimg" >
+                                </div>
+                                <div class="col-8">
+                                    <a href="{{url('listapprovel')}}" class=" text-decoration-none  card-a {{ ($active == 'home')?'active':'' }}">LIST OF APPROVALS</a>
+                                </div>
+                            </div>
+                        </div>
+                        
                     </div>
                 </div>
             </div>
         </div>
     </div>
     <!-- text info -->
-    <section class="container textinfo ">
+    <section class="container textinfo-home ">
         <p class="h1 text-center text-green textinfo-h1 textgreen">Forging a Wealth-Generating Ecosystem Using Circular Economy</p>
-        <p class="h1 text-center text-opacity mt-2 textinfo-h1">The Visionary Drive of Mr. Arnab Roy</p>
+        <p class="h3 text-center text-opacity mt-2 textinfo-h3">The Visionary Drive of Mr. Arnab Roy</p>
         <p class="h4  textjustify textinfo-h1-p ">At Refracast Metallurgicals, we've forged an ecosystem that bridges the gap between industrial waste 
-            and high-performance noble metals and compounds. When others overlooked the potential in spent 
+            and high performance noble metals and compounds. When others overlooked the potential in spent 
             catalysts, our founder, Mr. Arnab Roy, dedicated all resources to transforming these discarded materials 
             into valuable resources. His relentless innovation created a niche market for specialized ferroalloys, 
-            providing Indian steel producers with noble ferroalloys locally and reducing reliance on imports—saving 
+            providing Indian steel producers with noble ferroalloys locally and reducing reliance on imports saving 
             oil refineries on disposal costs. Moreover, Refracast stands as the world’s only recycler <strong>converting all 
             alumina substrates in spent catalysts into useful products</strong> like calcium aluminate, ensuring zero 
-            waste generation in the recycling process. This unique ecosystem—born from his visionary 
-            approach—not only revolutionized raw material sourcing but also established him as a wealth creator. 
+            waste generation in the recycling process. This unique ecosystem born from his visionary 
+            approach not only revolutionized raw material sourcing but also established him as a wealth creator. 
             Our green stallion mascot symbolizes this journey, representing the strength, sustainability, and 
             pioneering spirit that drive us forward.</p>
     </section>
     <!-- history timeline -->
-    <div class="container mt-5 ">
-        <h1 class="text-center mb-5 text textinfo-h1">HISTORY OF REFMET</h1>
+    <div class="container mt-5 timelinemy ">
+        <h1 class="text-center mb-5 text textinfo-h3">HISTORY OF REFMET</h1>
         <div class="row">
              <div class="timeline-horizontal-border d-md-block d-none ">
                 <span class="state-line d-md-block d-none">|</span>
@@ -96,7 +137,7 @@
              
 
                 <div class="col-md-6 " >
-                    <h2 class="text-center textinfo-h1">Pioneering Raw Material Sourcing</h2>
+                    <h2 class="text-center textinfo-h3">Pioneering Raw Material Sourcing</h2>
                     <div class="container my-5">
                         <!-- <h1 class="text-center mb-5">HISTORY OF REFMET</h1> -->
                         
@@ -120,7 +161,7 @@
                                 <div class="timeline-content green">
                                     <div class="timeline-date yellow ">2000</div>
                                     <!-- <div class="timeline-title">Pioneering Raw Material Sourcing</div> -->
-                                    <p class="timeline-p yellow textjustify">we developed groundbreaking technology for processing spent catalysts containing nickel—the first of its kind in India—showcasing our commitment to sustainability and technological advancement. We 
+                                    <p class="timeline-p yellow textjustify">we developed groundbreaking technology for processing spent catalysts containing nickel the first of its kind in India showcasing our commitment to sustainability and technological advancement. We 
                                         secured the first government license in India for 
                                         processing these spent catalysts, setting the 
                                         foundation for our leadership in waste recycling and raw 
@@ -154,7 +195,7 @@
                                     <!-- <div class="timeline-title">Pioneering Raw Material Sourcing</div> -->
                                     <p class="timeline-p yellow textjustify">With growing expertise, we received a permanent 
                                         CPCB license, allowing us to handle hazardous 
-                                        waste—an important milestone in expanding our 
+                                        waste an important milestone in expanding our 
                                         capabilities and responsibilities.</p>
                                 </div>
                             </div>
@@ -237,38 +278,12 @@
                                 </div>
                             </div>
                 
-                            <!-- 1995 Right -->
-                            <!-- <div class="timeline-item">
-                                <div class="timeline-marker"></div>
-                                <div class="timeline-content ">
-                                    <div class="timeline-date">1995</div>
-                                    <div class="timeline-title">Milestones in Client Innovation</div>
-                                    <p>Our founders launched REFMET with a vision to revolutionize the industry. With deep insights into both micro and macroeconomic trends, they committed to developing homegrown technologies that replaced costly imports with innovative, local solutions.</p>
-                                </div>
-                            </div> -->
-                
-                            <!-- 1997 -->
-                            <!-- <div class="timeline-item">
-                                <div class="timeline-marker"></div>
-                                <div class="timeline-content right">
-                                    <div class="timeline-date">1997</div>
-                                    <p>In 1997, we pioneered the production of pre-melted Calcium Aluminate, known as Synthetic Slag, in India. Through ground-breaking use of electric arc furnace melting processes, we became the world's first to utilize industrial waste for making Synthetic Slag.</p>
-                                </div>
-                            </div> -->
-                
-                            <!-- 2000 -->
-                            <!-- <div class="timeline-item">
-                                <div class="timeline-marker"></div>
-                                <div class="timeline-content left">
-                                    <div class="timeline-date">2000</div>
-                                    <p>We developed groundbreaking technology for processing spent catalysts containing nickel—the first of its kind in India—showcasing our commitment to sustainability and technological advancement. We secured the first government license in India for processing these spent catalysts.</p>
-                                </div>
-                            </div> -->
+                           
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 ">
-                    <h2 class="text-center mt-1 textinfo-h1">Milestones in Client Innovation</h2>
+                    <h2 class="text-center mt-1 textinfo-h3">Milestones in Client Innovation</h2>
                     <div class="container mt-5">
                         <!-- <h1 class="text-center mb-5">HISTORY OF REFMET</h1> -->
                         
@@ -292,7 +307,7 @@
                                 <div class="timeline-content white ">
                                     <div class="timeline-date ">1997</div>
                                     <!-- <div class="timeline-title">Pioneering Raw Material Sourcing</div> -->
-                                    <p class="timeline-p text-green textjustify">In 1997, we pioneered the production of pre-melted 
+                                    <p class="timeline-p text-green textjustify">In 1997, we pioneered the production of pre melted 
                                         Calcium Aluminate, known as Synthetic Slag, in India. 
                                         Through our ground-breaking use of electric arc 
                                         furnace melting processes, we became the world's first 
@@ -309,7 +324,7 @@
                                     <div class="timeline-date yellow">2000</div>
                                     <!-- <div class="timeline-title">Pioneering Raw Material Sourcing</div> -->
                                     <p class="timeline-p yellow textjustify py-4">Continuing our innovative streak, we developed Ferro 
-                                        Nickel Moly for the first time in India—bringing 
+                                        Nickel Moly for the first time in India bringing 
                                         significant cost savings to stainless steel 
                                         manufacturers while providing a locally sourced 
                                         alternative to imported materials.</p>
@@ -334,7 +349,7 @@
                                     <div class="timeline-date yellow">2006</div>
                                     <!-- <div class="timeline-title">Pioneering Raw Material Sourcing</div> -->
                                     <p class="timeline-p yellow textjustify pt-3 pb-5">We introduced Calcium Molybdate, revolutionizing the 
-                                        steel industry with a cost-saving, homegrown 
+                                        steel industry with a cost saving, homegrown 
                                         alternative to Moly Oxide and Ferro Molybdenum 
                                         imports.</p>
                                 </div> 
@@ -386,35 +401,8 @@
                                         market presence and reinforcing our role as a leader in 
                                         specialized industries.</p>
                                 </div> 
-                            </div>
-                
-                            <!-- 1995 Right -->
-                            <!-- <div class="timeline-item">
-                                <div class="timeline-marker"></div>
-                                <div class="timeline-content ">
-                                    <div class="timeline-date">1995</div>
-                                    <div class="timeline-title">Milestones in Client Innovation</div>
-                                    <p>Our founders launched REFMET with a vision to revolutionize the industry. With deep insights into both micro and macroeconomic trends, they committed to developing homegrown technologies that replaced costly imports with innovative, local solutions.</p>
-                                </div>
-                            </div> -->
-                
-                            <!-- 1997 -->
-                            <!-- <div class="timeline-item">
-                                <div class="timeline-marker"></div>
-                                <div class="timeline-content right">
-                                    <div class="timeline-date">1997</div>
-                                    <p>In 1997, we pioneered the production of pre-melted Calcium Aluminate, known as Synthetic Slag, in India. Through ground-breaking use of electric arc furnace melting processes, we became the world's first to utilize industrial waste for making Synthetic Slag.</p>
-                                </div>
-                            </div> -->
-                
-                            <!-- 2000 -->
-                            <!-- <div class="timeline-item">
-                                <div class="timeline-marker"></div>
-                                <div class="timeline-content left">
-                                    <div class="timeline-date">2000</div>
-                                    <p>We developed groundbreaking technology for processing spent catalysts containing nickel—the first of its kind in India—showcasing our commitment to sustainability and technological advancement. We secured the first government license in India for processing these spent catalysts.</p>
-                                </div>
-                            </div> -->
+                            </div>                
+                            
                         </div>
                     </div>
                 </div>
@@ -434,7 +422,7 @@
             <div class="row d-flex mx-3">
                  
                 <div class="col-md-12">
-                    <img src="/refmet/demo4/images/01.jpg" alt="" class="img-fluid imgfluid">
+                    <img src="{{asset('image/counter-image.png')}}" alt="" class="img-fluid imgfluid">
                     {{-- <div class="test-img"></div> --}}
                     {{-- <div class="image-box"></div> --}}
                 </div>
@@ -460,7 +448,7 @@
                         bio saved</span>
                 </div>
                 <div class="col-md-3 p-lg-5 p-md-4 bg-light text-md-start text-center col3">
-                     <h3 class="timer counter alt-font appear counter-span " data-to="4"
+                     <h3 class="timer counter alt-font appear counter-span " data-to="6"
                         data-speed="7000"id="counter-span">6</h3>
                     <span class=" counter-p "style="color: #043927;">Foot print over 6 
                         countries</span>
@@ -484,51 +472,51 @@
      <!-- our process end -->
 
      <!-- Our Clients Profile start -->
-     <div class="container mt-5">
-        <h2 class="text-center">Our Client</h2>
+     <div class="container  ourclient-container">
+        <h2 class="text-center textinfo-h3">Our Client Profile</h2>
         <div class="swiper mySwiper">
             <div class="swiper-wrapper">
                 <div class="swiper-slide card">
                     <div class="card-body">
-                        <img class="logo" src="https://img.icons8.com/color/100/000000/google-logo.png">
+                        <img class="logos" src="{{asset('clients/1.jpg')}}">
                     </div>
                 </div>
                 <div class="swiper-slide card">
                     <div class="card-body">
-                        <img class="logo" src="https://img.icons8.com/color/100/000000/linkedin.png">
+                        <img class="logos" src="{{asset('clients/2.jpg')}}">
                     </div>
                 </div>
                 <div class="swiper-slide card">
                     <div class="card-body">
-                        <img class="logo" src="https://img.icons8.com/color/100/000000/yahoo.png">
+                        <img class="logos" src="{{asset('clients/3.jpg')}}">
                     </div>
                 </div>
                 <div class="swiper-slide card">
                     <div class="card-body">
-                        <img class="logo" src="https://img.icons8.com/color/100/000000/amazon.png">
+                        <img class="logos" src="{{asset('clients/4.jpg')}}">
                     </div>
                 </div>
                 <div class="swiper-slide card">
                     <div class="card-body">
-                        <img class="logo" src="https://img.icons8.com/ios-filled/100/000000/mac-os.png">
+                        <img class="logos" src="{{asset('clients/5.jpg')}}">
                     </div>
                 </div>
                 <div class="swiper-slide card">
                     <div class="card-body">
-                        <img class="logo" src="https://img.icons8.com/color/48/000000/dell--v1.png">
+                        <img class="logos" src="{{asset('clients/6.jpg')}}">
                     </div>
                 </div>
-                <div class="swiper-slide card">
+                {{-- <div class="swiper-slide card">
                     <div class="card-body">
-                        <img class="logo" src="https://img.icons8.com/color/100/000000/hp.png">
+                        <img class="logos" src="{{asset('our_clie')}}">
                     </div>
-                </div>
+                </div> --}}
             </div>
             <!-- Swiper Navigation -->
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
+            {{-- <div class="swiper-button-next"></div> --}}
+            {{-- <div class="swiper-button-prev"></div> --}}
             <!-- Swiper Pagination -->
-            <div class="swiper-pagination"></div>
+            {{-- <div class="swiper-pagination"></div> --}}
         </div>
     </div>
     
@@ -549,28 +537,7 @@
 function showTimeline(){
     let showtime =document.querySelectorAll('.timeline-item');
 }
-// document.getElementById('toggle-btn').addEventListener('click', function() {
-//     // Get all elements with the class 'toggle-element'
-//     var elements = document.querySelectorAll('.timeline-item');
-    
-//     // Loop through each element and toggle its display
-//     elements.forEach(function(element , index) {
-//         // if (element.style.display === 'none') {
-//         //     element.style.display = 'block';  // Show the element
-//         // } else {
-//         //     element.style.display = 'none';  // Hide the element
-//         // }
-//         // elements.forEach(function(element, index) {
-//             if (index === 0 || index === 1 || index === 10 || index === 11) {
-//                 // if (element.style.display === 'none') {
-//             element.style.display = 'block';  // Show the element
-//         } else {
-//             element.style.display = 'none';  // Hide the element
-//         }
-//             // }
-// //         });
-//     });
-// });
+
 let clickCount = 0;  // Variable to keep track of the number of clicks
 
 document.getElementById('toggle-btn').addEventListener('click', function() {

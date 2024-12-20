@@ -1,39 +1,26 @@
 @extends('layouts.master')
 @section('title','Product')
 @section('content')
-{{-- <section id="pageTitle" class="page-title page-title-layout2 bg-overlay- bg-parallax">
-    {{-- <div class="bg-img"><img src="assets/images/page-titles/15.jpg" alt="background"></div> 
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12 col-md-12 col-lg-12 col-xl-8">
-        
-         
-          <h1 class="pagetitle__heading">Products</h1>
-        </div>
-      </div>
-    </div>
-  </section> --}}
- 
-  {{-- <h2 class="darkgreen">Products</h2> --}}
+
 <section id="textContentSection" class="text-content-section">
   
     <div class="container">
       <div class="row">
         <div class="col-sm-12 col-md-12 col-lg-3 hidden-xs hidden-sm d-lg-block d-none">
-          <h2 class="darkgreen">Products</h2>
+          <h2 class="darkgreen fontf">Products</h2>
 <div class="widget widget-categories p-0">
                     
   <div class="widget-content">
 
     <ul class="list-unstyled widget-ul">
                 <li class="widget-li">
-        <a href="{{url('/zslagcan')}}"class="text-decoration-none widget-a {{ ($active == 'zslagcan')?'active':'' }}"><span>Z-Slag Can  </span><i class="fa-solid fa-arrow-right widget-i"></i></a>
+        <a href="{{url('/zslagcan')}}"class="text-decoration-none widget-a {{ ($active == 'zslagcan')?'active':'' }}"><span>Z-SLAG CAN  </span><i class="fa-solid fa-arrow-right widget-i"></i></a>
       </li>
                 <li class="widget-li">
-        <a href="{{url('/zslagcaal50')}}"class="text-decoration-none widget-a {{ ($active == 'zslagcaal50')?'active':'' }}"><span>Z-Slag CA-AL50</span><i class="fa-solid fa-arrow-right widget-i"></i></a>
+        <a href="{{url('/zslagcaal50')}}"class="text-decoration-none widget-a {{ ($active == 'zslagcaal50')?'active':'' }}"><span>Z-SLAG CA-AL50</span><i class="fa-solid fa-arrow-right widget-i"></i></a>
       </li>
                 <li class="widget-li">
-        <a href="{{url('/zslagcaal20')}}"class="text-decoration-none widget-a {{ ($active == 'zslagcaal20')?'active':'' }}"><span>Z-Slag CA-AL20</span><i class="fa-solid fa-arrow-right widget-i"></i></a>
+        <a href="{{url('/zslagcaal20')}}"class="text-decoration-none widget-a {{ ($active == 'zslagcaal20')?'active':'' }}"><span>Z-SLAG CA-AL20</span><i class="fa-solid fa-arrow-right widget-i"></i></a>
       </li>
                 <li class="widget-li">
         <a href="{{url('/slagkills')}}"class="text-decoration-none widget-a {{ ($active == 'slagkills')?'active':'' }}"><span>SLAG KILL 100</span><i class="fa-solid fa-arrow-right widget-i"></i></a>
@@ -73,15 +60,15 @@
             
             @section('product')
             {{-- <a href="{{asset('refmet/uploads/upload_images/1706006782T_BROCHURE-01.jpg')}}" download="1706006782T_BROCHURE-01.jpg" class=" text-decoration-none btn btn-outline-success"><i class="fa-solid fa-download m-1"></i>Brochure</a> --}}
-<div class="container-fluid p-0  text-white text-center product-top">
+<div class="container-fluid p-5  text-white text-center product-top">
     <div class="row">
         <div class="col-md-4 col-12">
-            <img src="{{asset('refmet/demo4/assets/images/case-studies/Z-Slag-Can.jpg')}}" alt="" class="img">
+            <img src="{{asset('product_img/Z-Slag-Can.jpg')}}" alt="" class="img">
         </div>
         <div class="col-md-8 col-12"> 
           <div class="productname">
-            <h1 class="darkgreen">Z-SLAG-CAN</h1>
-            <h3 class="yellow">PRODUCT DATA SHEEET</h3></div>  
+            <h1 class="darkgreen fontf">Z-SLAG-CAN</h1>
+            <h3 class="yellow fontf">PRODUCT DATA SHEEET</h3></div>  
             
            </div>
     </div>
@@ -91,7 +78,7 @@
   <div class="container mt-5">
     <div class="row">
       <div class="col-sm-6">
-        <h3 class="darkgreen">Description</h3>
+        <h3 class="darkgreen fontf">Description</h3>
         <p class="textjustify">Steel making market in India is highly competitive and being cost effective in manufacturing along with good quality steel is the essence for sustainability and growth. Refracast Metallurgicals Pvt.ltd. is happy to introduce Z-Slag CAN a product designed to improve inclusion removal capacity of LRF slag. By adding the given active C12A7 sulphur and Phos can be controlled to a great extent. The entire LRF slag will get fluidized and the entire slag viscosity will reduce. Making it very easy to handle the slag. No further re- oxidation of liquid steel will occure as the slag will form a tight seal between steel and atmosphere. Will help improve ladle life by avoiding CaF2. And will help bring down the total slag volume. Making it energy efficient.
           As seen in Rankin diagram, all three varieties of synthetic slag targets to make the slag in the C12 A7 phase region.
           The Rankin diagram
@@ -104,8 +91,8 @@
         <p>inclusion to float around in the liquid steel.</p>
 
         <table class="table border table-hover">
-          <h4 class="darkgreen">PRODUCT</h4>
-          <h5 class="darkgreen">Z-Slag Can</h5>
+          <h4 class="darkgreen fontf">PRODUCT</h4>
+          <h5 class="darkgreen fontf">Z-Slag Can</h5>
           <thead>
             {{-- <tr>
               <th scope="col">#</th>
@@ -158,14 +145,14 @@
         
       </div>
       <div class="col-sm-6">
-        <h3 class="darkgreen">APPLICATION : (How to use) </h3>  
+        <h3 class="darkgreen fontf">APPLICATION : (How to use) </h3>  
         <ul>
           <li class="textjustify">Once the Liquid Steel is ready for tapping and empty ladle is placed add 3kg of Z-Slag CAN per ton of liquid steel in the empty ladle or during the tapping.</li>
           <li class="textjustify">Take the ladle to LRF for refining process. During which lime and other flux are added as per old SOP.</li>
           <li class="textjustify">During final stages if the MnO or FeO content of slag is high add 2kg to 8kg of Z-Slag CAN this will help improve Metal Oxide reduction back to Metal. Make sure after the 2nd addition there is sufficient turbulence in the ladle for proper slag and metal reaction at the interface.</li>
         </ul>      
         
-        <h3 class="darkgreen">BENEFITES OF Z-Slag CAN : </h3>    
+        <h3 class="darkgreen fontf">BENEFITES OF Z-Slag CAN : </h3>    
         <ul>
           <li class="textjustify">Quick Melting Slag cover reduces re-oxidation</li>
           <li class="textjustify">Narrow range of impurities and inclusion level.</li>
@@ -181,7 +168,7 @@
         </ul>   
 
           
-        <h3 class="darkgreen ">FEW OF THE MOST CONMMAN SMS SHOETCOMINGS WE ADDRESS:</h3>
+        <h3 class="darkgreen fontf ">FEW OF THE MOST CONMMAN SMS SHOETCOMINGS WE ADDRESS:</h3>
         <ul>
           <li class="textjustify"> Fuming in work space.</li>    
           <li class="textjustify"> Crusting of slag in the ladle.</li>    
@@ -226,13 +213,13 @@
                 
                     <ul class="list-unstyled widget-ul">
                                 <li class="widget-li">
-                        <a href="{{url('/zslagcan')}}"class="text-decoration-none widget-a"><span>Z-Slag Can  </span><i class="fa-solid fa-arrow-right widget-i"></i></a>
+                        <a href="{{url('/zslagcan')}}"class="text-decoration-none widget-a"><span>Z-SLAG CAN  </span><i class="fa-solid fa-arrow-right widget-i"></i></a>
                       </li>
                                 <li class="widget-li">
-                        <a href="{{url('/zslagcaal50')}}"class="text-decoration-none widget-a"><span>Z-Slag CA-AL50</span><i class="fa-solid fa-arrow-right widget-i"></i></a>
+                        <a href="{{url('/zslagcaal50')}}"class="text-decoration-none widget-a"><span>Z-SLAG CA-AL50</span><i class="fa-solid fa-arrow-right widget-i"></i></a>
                       </li>
                                 <li class="widget-li">
-                        <a href="{{url('/zslagcaal20')}}"class="text-decoration-none widget-a"><span>Z-Slag CA-AL20</span><i class="fa-solid fa-arrow-right widget-i"></i></a>
+                        <a href="{{url('/zslagcaal20')}}"class="text-decoration-none widget-a"><span>Z-SLAG CA-AL20</span><i class="fa-solid fa-arrow-right widget-i"></i></a>
                       </li>
                                 <li class="widget-li">
                         <a href="{{url('/slagkills')}}"class="text-decoration-none widget-a"><span>SLAG KILL 100</span><i class="fa-solid fa-arrow-right widget-i"></i></a>

@@ -4,15 +4,15 @@
 
 @section('product')
 {{-- <a href="{{asset('refmet/uploads/upload_images/1706006782T_BROCHURE-01.jpg')}}" download="1706006782T_BROCHURE-01.jpg" class=" text-decoration-none btn btn-outline-success"><i class="fa-solid fa-download m-1"></i>Brochure</a> --}}
-<div class="container-fluid p-0  text-white text-center product-top">
+<div class="container-fluid p-5  text-white text-center product-top">
     <div class="row">
         <div class="col-md-4 col-12">
-            <img src="{{asset('refmet/demo4/assets/images/case-studies/Z-Slag-Can.jpg')}}" alt="" class="img">
+            <img src="{{asset('product_img/Z-Slag-Can.jpg')}}" alt="" class="img">
         </div>
         <div class="col-md-8 col-12"> 
           <div class="productname">
-            <h1 class="darkgreen">Z-SLAG-CAN</h1>
-            <h3 class="yellow">PRODUCT DATA SHEEET</h3></div>  
+            <h1 class="darkgreen fontf">Z-SLAG-CAN</h1>
+            <h3 class="yellow fontf">PRODUCT DATA SHEEET</h3></div>  
               
           </div>
     </div>
@@ -22,7 +22,7 @@
   <div class="container mt-0">
     <div class="row">
       <div class="col-sm-6">
-        <h3 class="darkgreen">Description</h3>
+        <h3 class="darkgreen fontf">Description</h3>
         <p class="textjustify p">Steel making market in India is highly competitive and being cost effective in manufacturing along with good quality steel is the essence for sustainability and growth. Refracast Metallurgicals Pvt.ltd. is happy to introduce Z-Slag CAN a product designed to improve inclusion removal capacity of LRF slag. By adding the given active C12A7 sulphur and Phos can be controlled to a great extent. The entire LRF slag will get fluidized and the entire slag viscosity will reduce. Making it very easy to handle the slag. No further re- oxidation of liquid steel will occure as the slag will form a tight seal between steel and atmosphere. Will help improve ladle life by avoiding CaF2. And will help bring down the total slag volume. Making it energy efficient.
           As seen in Rankin diagram, all three varieties of synthetic slag targets to make the slag in the C12 A7 phase region.
           The Rankin diagram
@@ -35,8 +35,8 @@
         <p>inclusion to float around in the liquid steel.</p>
 
         <table class="table border table-hover">
-          <h4 class="darkgreen">PRODUCT</h4>
-          <h5 class="darkgreen">Z-Slag Can</h5>
+          <h4 class="darkgreen fontf">PRODUCT</h4>
+          <h5 class="darkgreen fontf">Z-Slag Can</h5>
           <thead>
             {{-- <tr>
               <th scope="col">#</th>
@@ -89,7 +89,7 @@
         
       </div>
       <div class="col-sm-6">
-        <h3 class="darkgreen">APPLICATION : (How to use) </h3>  
+        <h3 class="darkgreen fontf">APPLICATION : (How to use) </h3>  
         <ul>
           <li class="textjustify p"> Once the Liquid Steel is ready for tapping and empty ladle is placed add 3kg of Z-Slag CAN per ton of liquid steel in the empty ladle or during the tapping.</li>    
           <li class="textjustify p"> Take the ladle to LRF for refining process. During which lime and other flux are added as per old SOP.</li>    
@@ -97,7 +97,7 @@
             
         </ul>      
         
-        <h3 class="darkgreen">BENEFITES OF Z-Slag CAN : </h3> 
+        <h3 class="darkgreen fontf">BENEFITES OF Z-Slag CAN : </h3> 
         <ul>
           <li> Quick Melting Slag cover reduces re-oxidation</li>    
           <li> Narrow range of impurities and inclusion level.</li>
@@ -113,7 +113,7 @@
         </ul>          
         
           
-        <h3 class="darkgreen ">FEW OF THE MOST CONMMAN SMS SHOETCOMINGS WE ADDRESS:</h3>
+        <h3 class="darkgreen fontf ">FEW OF THE MOST CONMMAN SMS SHOETCOMINGS WE ADDRESS:</h3>
         <ul>
         <li> Fuming in work space.</li>    
         <li> Crusting of slag in the ladle.</li>    

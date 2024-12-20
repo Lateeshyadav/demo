@@ -8,13 +8,13 @@
     <div class="container-fluid p-5  text-white text-center product-top">
         <div class="row">
             <div class="col-md-4 col-12">
-                <img src="{{ asset('refmet/demo4/assets/images/case-studies/NICKLE-OXIDE-COBALT-OXIDE.jpg') }}"
+                <img src="{{ asset('product_img/NICKLE-OXIDE-COBALT-OXIDE.jpg') }}"
                     alt="" class="img">
             </div>
             <div class="col-md-8 col-12">
                 <div class="productname">
-                    <h1 class="darkgreen">NICKLE OXIDE & COBALT OXIDE</h1>
-                    <h3 class="yellow">PRODUCT DATA SHEEET</h3>
+                    <h1 class="darkgreen fontf">NICKLE OXIDE & COBALT OXIDE</h1>
+                    <h3 class="yellow fontf">PRODUCT DATA SHEEET</h3>
                 </div>
 
             </div>
@@ -25,8 +25,8 @@
     <div class="container mt-5">
         <div class="row">
             <div class="col-sm-6">
-                <h4 class="yellow">NICKLE OXIDE (NIO)BB-32</h4>
-                <h4 class="darkgreen">INTRODUCTION:</h4>
+                <h4 class="yellow fontf">NICKLE OXIDE (NIO)BB-32</h4>
+                <h4 class="darkgreen fontf">INTRODUCTION:</h4>
                 <p class="textjustify p">Nickel oxide (NIO) is a versatile compound that finds various applications in the paint industry. This
                     technical literature aims to provide essential information about the properties, benefits .Nickel oxide
                     is a valuable component in the paint industry, offering benefits such as deep black pigment, heat
@@ -110,7 +110,7 @@
                         </tr>
                     </tbody>
                 </table>
-                <h4 class="darkgreen">Application Areas:</h4>
+                <h4 class="darkgreen fontf">Application Areas:</h4>
                 <div class="container">
                   <div class="row">
                     <div class="col-6">
@@ -134,8 +134,8 @@
 
             </div>
             <div class="col-sm-6">
-              <h4 class="yellow">COBALT OXIDE (CoO.Co203)GT-90</h4>
-              <h4 class="darkgreen">INTRODUCTION:</h4>
+              <h4 class="yellow fontf">COBALT OXIDE (CoO.Co203)GT-90</h4>
+              <h4 class="darkgreen fontf">INTRODUCTION:</h4>
               <p class="textjustify p">Cobalt Oxide (COO.Co203) is a black powder compound with various applications across different industries. This technical literature aims to provide essential information about the properties, applications, and recommended usage of Cobalt Oxide.Cobalt Oxide (CoO.Co203) is a versatile compound with applications in the ceramic, pigment, catalyst, and battery industries</p>
 
               <table class="table table-bordered">
@@ -209,7 +209,7 @@
                       
                   </tbody>
               </table>
-              <h4 class="darkgreen">Application Areas:</h4>
+              <h4 class="darkgreen fontf">Application Areas:</h4>
               <div class="container">
                 <div class="row">
                   <div class="col-6">

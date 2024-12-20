@@ -7,12 +7,12 @@
 <div class="container-fluid p-5  text-white text-center product-top">
     <div class="row">
         <div class="col-md-4 col-12">
-            <img src="{{asset('refmet/demo4/assets/images/case-studies/SLAG-KILL-100.jpg')}}" alt="" class="img">
+            <img src="{{asset('product_img/SLAG-KILL-100.jpg')}}" alt="" class="img">
         </div>
         <div class="col-md-8 col-12"> 
           <div class="productname">
-            <h1 class="darkgreen">SLAG KILL 100</h1>
-            <h3 class="yellow">PRODUCT DATA SHEEET</h3> </div>  
+            <h1 class="darkgreen fontf">SLAG KILL 100</h1>
+            <h3 class="yellow fontf">PRODUCT DATA SHEEET</h3> </div>  
              
           </div>
     </div>
@@ -22,13 +22,13 @@
   <div class="container mt-5">
     <div class="row">
       <div class="col-sm-6">
-        <h3 class="darkgreen">Description</h3>
+        <h3 class="darkgreen fontf">Description</h3>
         <p class="textjustify p">Secondary steel making market in India is highly competitive and being cost effective in manufacturing is the essence for sustainability and growth. Kunal minerals private limited is happy to introduce SLAG KILL 100 a product designed to reduce Manganese consumption by improving Manganese recovery up to 70% or more Slag Kill 100 reduces the final Fe(m) and FeO content in the induction furnace slag. This is done by killing the slag of excess oxygen and reducing the slag viscosity. Our product also helps reduce non-metallic inclusions to give better surface finish of rolled product. This is a win-win product where cost saving is far more than the cost of addition. Synthetic slag has always been a product to be used by Primary steel makers with basic or neutral lining but with little modification Slag Kill 100 is designed keeping in mind acidic lining of secondary steel maker's needs.
           Synthetic slag consists of prepared mixture of several individual compounds which is used during secondary steelmaking to assist the steel treatment in the furnace and ladle from the viewpoint of effective refinement. Synthetic slag practice is normally used to obtain clean steels and for the desulphurization and dephosphorization of the liquid steel but that will not be the case in Acidic lining.</p>
         
           <table class="table border table-hover">
-          <h4 class="darkgreen">PRODUCT</h4>
-          <h5 class="darkgreen">SLAG KILL 100</h5>
+          <h4 class="darkgreen fontf">PRODUCT</h4>
+          <h5 class="darkgreen fontf">SLAG KILL 100</h5>
           <thead>
             {{-- <tr>
               <th scope="col">#</th>
@@ -97,7 +97,7 @@
         
       </div>
       <div class="col-sm-6">
-        <h3 class="darkgreen">APPLICATION OF SLAG KILL 100:</h3>
+        <h3 class="darkgreen fontf">APPLICATION OF SLAG KILL 100:</h3>
         <ul>
         <li> After full melting of scrap / sponge iron drain some surface slag.</li>    
         <li> Add Slag Kill 100 at the rate of 2+1 kg per Ton of molten Steel.</li>    
@@ -107,7 +107,7 @@
         <li> Melt is ready for casting.</li> 
         </ul>        
         
-        <h3 class="darkgreen">BENEFITES OF SLAG KILL 100 : </h3>    
+        <h3 class="darkgreen fontf">BENEFITES OF SLAG KILL 100 : </h3>    
         <ul>
           <li> Avoid use of Aluminum Metal.</li>    
           <li> Improves Mn recovery to 70% or more. As per C% in Steel.</li>    
