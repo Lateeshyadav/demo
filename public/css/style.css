@@ -24,8 +24,8 @@ body{
 }
 .logos{
     
-    /* width: 150px; */
-    /* height: 150px; */
+    /* width: 161px;  */
+    /* height: 150px;
     /* object-fit: contain; */
     /* margin: auto;  */
     /* display: block; */
@@ -529,6 +529,24 @@ color: #024430;
     height: 408px;
     object-position: top;
 }
+--------------------------------------
+
+
+    .swiper {
+        width: 100%;
+        height: auto;
+    }
+    .swiper-slide {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .logos {
+        max-width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+
 
 
 
@@ -548,8 +566,9 @@ color: #024430;
         border-radius: 50%;
      }
      .logos{
-        /* width: 90px;
-        height: 90px; */
+        max-width: 35%;
+        /* height: auto; */
+        /* object-fit: cover; */
      }
      .imgfluid{        
             object-fit: cover;

@@ -512,11 +512,11 @@
                     </div>
                 </div> --}}
             </div>
-            <!-- Swiper Navigation -->
+            
             {{-- <div class="swiper-button-next"></div> --}}
             {{-- <div class="swiper-button-prev"></div> --}}
-            <!-- Swiper Pagination -->
-            {{-- <div class="swiper-pagination"></div> --}}
+            
+             {{-- <div class="swiper-pagination"></div> --}}
         </div>
     </div>
     
@@ -609,7 +609,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 </script>
-<script>
+{{-- <script>
     document.addEventListener("DOMContentLoaded", function () {
         var swiper = new Swiper(".mySwiper", {
             loop: true, // Enables infinite looping
@@ -640,7 +640,66 @@ document.addEventListener('DOMContentLoaded', function() {
             },
         });
     });
+</script> --}}
+
+{{-- <script>
+    document.addEventListener("DOMContentLoaded", function () {
+        new Swiper(".mySwiper", {
+            slidesPerView: 4, // Default for desktop
+            spaceBetween: 20, // Space between slides
+            breakpoints: {
+                0: {
+                    slidesPerView: 2, // For mobile devices
+                    spaceBetween: 10,
+                },
+                768: {
+                    slidesPerView: 4, // For tablets and desktops
+                    spaceBetween: 20,
+                }
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+        });
+    });
+</script> --}}
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        new Swiper(".mySwiper", {
+            slidesPerView: 4, // Default for desktop
+            spaceBetween: 20, // Space between slides
+            autoplay: {
+                delay: 3000, // 3 seconds delay
+                disableOnInteraction: false, // Continue autoplay after user interaction
+            },
+            breakpoints: {
+                0: {
+                    slidesPerView: 1, // Single image for mobile
+                    spaceBetween: 10,
+                },
+                768: {
+                    slidesPerView: 4, // Four images for desktop and tablets
+                    spaceBetween: 20,
+                }
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            loop: true, // Enable looping for infinite scroll
+        });
+    });
 </script>
+
 
     
 @endpush
