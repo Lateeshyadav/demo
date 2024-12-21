@@ -82,11 +82,11 @@
 
     <!-- Main Navbar -->
     <div class="stickytop shadow">
-    <nav class="navbar navbar-expand-sm white ">
+    <nav class="navbar navbar-expand-sm white " style="marrgin:0px 50px !important">
         <div class="container-fluid justify-content-center">
             <a class="navbar-brand mx-auto" href="{{url('/')}}">
                 {{-- <img class="log" src="{{asset('refmet/assets/images/logo/logo.png')}}" alt="Logo"> --}}
-                <img class="log" src="{{asset('image/logo.png')}}" alt="Logo">
+                <img class="log " src="{{asset('image/logo.png')}}" alt="Logo">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>

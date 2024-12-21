@@ -37,6 +37,7 @@
         <li class="h4  textjustify textinfo-h1-p">Quality rejects and ETP sludge from principal Catalyst Manufacturers.</li>
         <li class="h4  textjustify textinfo-h1-p">Industrial Sludge having Nickel, Cobalt, Molybdenum, Vanadium, Tungsten, and Zinc.</li>
      </ul>
+     <a href="{{asset('broucher/BROCHURE.pdf')}}" download="BROCHURE.pdf" class=" text-decoration-none btn green btnbroucher w-100 py-3"><i class="fa-solid fa-download m-1"></i>Download Brochure</a>
     
 </section>
 <div style="margin: 12% 0 12% 0;">

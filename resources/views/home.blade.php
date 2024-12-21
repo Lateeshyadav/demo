@@ -35,80 +35,72 @@
             </div>
         </div>
     </section>
-    {{-- button --}}
+    {{-- button --}}  
+    
+    <!---button design--->
+
     <div class="container d-md-none d-block btncontainer">
-        <div class="row">
+        <div class="row gy-3">
             <div class="col-md-3 col-12">
-                <div class="card card-btn ">
-                    <div class="card-body green cardbody">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-4">
-                                    <img src="{{asset('image/what-we-buy.png')}}" alt="" class="cardimg" >
-                                </div>
-                                <div class="col-8">
-                                    <a href="{{url('whatwebuy')}}" class=" text-decoration-none card-a {{ ($active == 'home')?'active':'' }}">WHAT WE BUY</a>
-                                    {{-- <a href="{{url('whatwebuy')}}" class=" text-decoration-none card-btn {{ ($active == 'home')?'active':'' }}">WHAT WE BUY</a> --}}
-                                </div>
+                <a href="{{ url('whatwebuy') }}" class="text-decoration-none card-a {{ ($active == 'home') ? 'active' : '' }}">
+                    <div class="card h-100">
+                        <div class="row g-0 align-items-center">
+                            <div class="col-4 text-center p-2">
+                                <img src="{{ asset('image/what-we-buy.png') }}" alt="What We Buy" class="img-fluid cardimg">
+                            </div>
+                            <div class="col-8">
+                                <p class="mb-0 fw-bold">WHAT WE BUY</p>
                             </div>
                         </div>
-                        
                     </div>
-                </div>
-            </div>
-            <div class="col-md-3 col-12 ">
-                <div class="card card-btn " >
-                    <div class="card-body green cardbody">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-4">
-                                    <img src="{{asset('image/what-we-sell.png')}}" alt="" class="cardimg" >
-                                </div>
-                                <div class="col-8">
-                                    <a href="{{url('whatwesell')}}" class=" text-decoration-none  card-a {{ ($active == 'home')?'active':'' }}">WHAT WE SELL</a>
-                                </div>
-                            </div>
-                        </div>
-                        
-                    </div>
-                </div>
+                </a>
             </div>
             <div class="col-md-3 col-12">
-                <div class="card card-btn" >
-                    <div class="card-body green cardbody">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-4">
-                                    <img src="{{asset('image/what-services-we-offer.png')}}" alt="" class="cardimg" >
-                                </div>
-                                <div class="col-8">
-                                    <a href="{{url('serviceweoffer')}}" class=" text-decoration-none  card-a {{ ($active == 'home')?'active':'' }}">SERVICE WE OFFER</a>
-                                </div>
+                <a href="{{ url('whatwesell') }}" class="text-decoration-none card-a {{ ($active == 'home') ? 'active' : '' }}">
+                    <div class="card h-100">
+                        <div class="row g-0 align-items-center">
+                            <div class="col-4 text-center p-2">
+                                <img src="{{ asset('image/what-we-sell.png') }}" alt="What We Sell" class="img-fluid cardimg">
+                            </div>
+                            <div class="col-8">
+                                <p class="mb-0 fw-bold">WHAT WE SELL</p>
                             </div>
                         </div>
-                        
                     </div>
-                </div>
+                </a>
             </div>
             <div class="col-md-3 col-12">
-                <div class="card card-btn">
-                    <div class="card-body green cardbody">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-4">
-                                    <img src="{{asset('image/list-of-approvals.png')}}" alt="" class="cardimg" >
-                                </div>
-                                <div class="col-8">
-                                    <a href="{{url('listapprovel')}}" class=" text-decoration-none  card-a {{ ($active == 'home')?'active':'' }}">LIST OF APPROVALS</a>
-                                </div>
+                <a href="{{ url('serviceweoffer') }}" class="text-decoration-none card-a {{ ($active == 'home') ? 'active' : '' }}">
+                    <div class="card h-100">
+                        <div class="row g-0 align-items-center">
+                            <div class="col-4 text-center p-2">
+                                <img src="{{ asset('image/what-services-we-offer.png') }}" alt="Service We Offer" class="img-fluid cardimg">
+                            </div>
+                            <div class="col-8">
+                                <p class="mb-0 fw-bold">SERVICE WE OFFER</p>
                             </div>
                         </div>
-                        
                     </div>
-                </div>
+                </a>
+            </div>
+            <div class="col-md-3 col-12">
+                <a href="{{ url('listapprovel') }}" class="text-decoration-none card-a {{ ($active == 'home') ? 'active' : '' }}">
+                    <div class="card h-100">
+                        <div class="row g-0 align-items-center">
+                            <div class="col-4 text-center p-2">
+                                <img src="{{ asset('image/list-of-approvals.png') }}" alt="List of Approvals" class="img-fluid cardimg">
+                            </div>
+                            <div class="col-8">
+                                <p class="mb-0 fw-bold">LIST OF APPROVALS</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
             </div>
         </div>
     </div>
+    <!---button design--->
+   
     <!-- text info -->
     <section class="container textinfo-home ">
         <p class="h1 text-center text-green textinfo-h1 textgreen">Forging a Wealth-Generating Ecosystem Using Circular Economy</p>
@@ -520,8 +512,7 @@
         </div>
     </div>
     
-     <!-- Our Clients Profile end -->
-     
+     <!-- Our Clients Profile end -->    
 
    
     
@@ -679,10 +670,10 @@ document.addEventListener('DOMContentLoaded', function() {
             },
             breakpoints: {
                 0: {
-                    slidesPerView: 1, // Single image for mobile
+                    slidesPerView: 3, // Single image for mobile
                     spaceBetween: 10,
                 },
-                768: {
+                576: {
                     slidesPerView: 4, // Four images for desktop and tablets
                     spaceBetween: 20,
                 }
