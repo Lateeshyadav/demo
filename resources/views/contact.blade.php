@@ -16,7 +16,7 @@
      font-size: 31px;
      padding: 6px;
    }
-  } 
+  }
   @media(max-width:576px){
     .cardbodys{
     min-height: 168px;
@@ -54,13 +54,13 @@
      margin-left:0% ;
      /* align-items: center; */
      text-align: justify
-     
-     
+
+
    }
-     
-   
-  }     
- 
+
+
+  }
+
 </style>
 <!-- Main Content Section -->
 <section class="container-fluid">
@@ -74,8 +74,8 @@
                   <li><a href="#" class="btn btn-green  p-3 btna ">SERVICE WE OFFER</a></li>
                   <li><a href="#" class="btn btn-green  p-3 btna ">LIST OF APPROVALS</a></li>
               </ul> --}}
-              <div class="text-about">
-                <h2 class="text-center text-green textinfo-h3 h1-textinfo">Refracast Metallurgicals Pvt.Ltd.</h2>
+              <div class="mt-3">
+                <h2 class="text-center text-green textinfo-h3 fw-bold">Refracast Metallurgicals Pvt.Ltd.</h2>
             </div>
           </div>
       </div>
@@ -85,7 +85,7 @@
 <section class="container textinfo px-5">
   <p class="h1  text-green  get-h1 textinfo-h1">Get In Tuch</p>
    <p class="h5  text-opacity mb-4 mt-2">Send us your queries and we will try to answer them as soon as possible.</p>
-  
+
    <div class="row">
     <div class="col-md-6">
       <div class="card shadow ">
@@ -169,5 +169,5 @@
 
 <!-- contactus info -->
 
-  
+
 @endsection

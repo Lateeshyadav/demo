@@ -1,29 +1,25 @@
 <div class="container-fluid mt-5 " style="border-radius: 30px 30px 0 0;background-color: #27541e;">
     <div class="row mt-5  footer-row-first">
         <div class="col-md-6 mt-5">
-            {{-- <h1 class="footer-h1">Request a call back                      --}}
+
             </h1>
         </div>
         <div class="col-md-6 mt-5">
-            {{-- <form action="" class="form-group">
-                <input type="text" class="footer-input" placeholder="Enter you name">
-                <input type="text" class="footer-input" placeholder="Enter you number">
-                <button class="footer-btn btn-yellow ">Submit</button>
-            </form> --}}
+
         </div>
     </div>
     <div class="row bg-white footer-row-second" style="border-radius: 50px 50px 0 0;">
         <div class="col-md-4 ps-5">
             <img src="{{asset('refmet/assets/images/logo/logo.png')}}" alt="" style="width: 40%;" class="mb-4">
-            <p class=" h5 textjustify footer-p">Refracast Metallurgicals Pvt Ltd (RMPL) 
-                stands as a prominent leader in the 
-                metallurgical industry, specializing in spent 
-                catalyst recycling and innovative solutions for 
-                the steel-making sector in India. Established 
-                in 1995 in Raipur, Chhattisgarh, our company 
-                has consistently demonstrated its pioneering 
-                capabilities through relentless research and 
-                development, setting us apart as a trendsetter 
+            <p class=" h5 textjustify footer-p">Refracast Metallurgicals Pvt Ltd (RMPL)
+                stands as a prominent leader in the
+                metallurgical industry, specializing in spent
+                catalyst recycling and innovative solutions for
+                the steel-making sector in India. Established
+                in 1995 in Raipur, Chhattisgarh, our company
+                has consistently demonstrated its pioneering
+                capabilities through relentless research and
+                development, setting us apart as a trendsetter
                 in the industry</p>
         </div>
         <div class="col-md-4 ps-5">
@@ -38,7 +34,7 @@
             </ul>
         </div>
         <div class="col-md-4 ">
-            <h1 class="mb-5 mt-4 ms-5 footer-h">Our Product</h1>
+            <h1 class="mb-5 fw-bold mt-4 ms-5 footer-h">Our Product</h1>
             <ul>
                 <li class="footer-row-second-li"><a class="footer-row-second-a" href="">Z-Slag Can</a></li>
                 <li class="footer-row-second-li"><a class="footer-row-second-a" href="">Z-Slag CA-AL50</a></li>
@@ -50,7 +46,7 @@
         </div>
         <hr class="mt-5">
     </div>
-           
+
     <div class="row bg-white">
         <div class="col-md-12">
             <h5 class="text-center mt-4 footer-copy">Copyright © 2022 - 2024. Refracast Metallurgicals Pvt. Ltd. | All Rights Reserved.</h5>
@@ -61,8 +57,7 @@
 
 
 
-
-<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> -->
 <script src="{{asset('bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js')}}"></script>
 <!-- <script>

@@ -13,8 +13,8 @@
                     <li><a href="#" class="btn btn-green  p-3 btna ">SERVICE WE OFFER</a></li>
                     <li><a href="#" class="btn btn-green  p-3 btna ">LIST OF APPROVALS</a></li>
                 </ul> --}}
-                <div class="text-about">
-                    <h2 class="text-center text-green textinfo-h3 h1-info">Refracast Metallurgicals Pvt.Ltd.</h2>
+                <div class="mt-3">
+                    <h2 class="text-center text-green textinfo-h3 fw-bold">Refracast Metallurgicals Pvt.Ltd.</h2>
                 </div>
             </div>
         </div>
@@ -28,13 +28,13 @@
      <!-- <p class="h4">Nickel, Cobalt, Molybdenum, Vanadium, Tungsten, and Zinc in the following forms:</p> -->
      <ul class="uleft">
         <li class="h4  textjustify textinfo-h1-p"><strong>Metal Reclamation:</strong> We specialize in reclaiming metals from rejected industrial precursors.</li>
-        <li class="h4  textjustify textinfo-h1-p"><strong>Circular Economy Implementation:</strong> We facilitate the implementation of circular economy practices 
+        <li class="h4  textjustify textinfo-h1-p"><strong>Circular Economy Implementation:</strong> We facilitate the implementation of circular economy practices
             specifically for metals in spent catalysts.</li>
-        <li class="h4  textjustify textinfo-h1-p"><strong>Metal Recovery and Ingot Production (Job Work):</strong> We convert alloy steel, high-speed steel, 
+        <li class="h4  textjustify textinfo-h1-p"><strong>Metal Recovery and Ingot Production (Job Work):</strong> We convert alloy steel, high-speed steel,
             stainless steel dust, and scrap into usable ingots.</li>
-        <li class="h4  textjustify textinfo-h1-p"><strong>Expertise in Lime Management:</strong> We provide solutions to combat the hygroscopic nature of quick 
+        <li class="h4  textjustify textinfo-h1-p"><strong>Expertise in Lime Management:</strong> We provide solutions to combat the hygroscopic nature of quick
             lime and hydrated lime in steel plants, particularly in coastal regions.</li>
-        <li class="h4  textjustify textinfo-h1-p"><strong>Color Development for Ceramics and Pigments:</strong> We assist ceramic, paint, and pigment 
+        <li class="h4  textjustify textinfo-h1-p"><strong>Color Development for Ceramics and Pigments:</strong> We assist ceramic, paint, and pigment
             manufacturers in developing rich and vibrant metal oxide colors.
         <ul style="list-style: none;">
             <li class="textinfo-h1-p"> <img src="https://icons.iconarchive.com/icons/praveen/minimal-outline/128/next-2-icon.png" width="35" height="35">Manage metal addition calculations and recovery in low to micro-alloy steel production.</li>
@@ -46,22 +46,22 @@
         </li>
         <li class="h4  textjustify textinfo-h1-p"><strong>Steel Manufacturing Support:</strong> We offer comprehensive support to steel manufacturers to:</li>
         <li class="h4  textjustify textinfo-h1-p">TUNGSTEN OXIDE</li>
-        <li class="h4  textjustify textinfo-h1-p"><strong>Induction Furnace Solutions:</strong> We supply a complete set of solutions for steel plants using induction 
-            furnaces, focusing on slag management to reduce metal loss in slag and ensuring manganese 
-            recovery rates of at least 75% for medium to high carbon steel, and a minimum of 70% for ultra low to 
+        <li class="h4  textjustify textinfo-h1-p"><strong>Induction Furnace Solutions:</strong> We supply a complete set of solutions for steel plants using induction
+            furnaces, focusing on slag management to reduce metal loss in slag and ensuring manganese
+            recovery rates of at least 75% for medium to high carbon steel, and a minimum of 70% for ultra low to
             low carbon steel.</li>
-        <li class="h4  textjustify textinfo-h1-p"><strong>Recycling for Catalyst Manufacturers:</strong> We provide a recycling facility for catalyst manufacturers to 
+        <li class="h4  textjustify textinfo-h1-p"><strong>Recycling for Catalyst Manufacturers:</strong> We provide a recycling facility for catalyst manufacturers to
             safely dispose of QC rejects, ETP, and dust filter scrap.</li>
         <!-- <li class="h4  textjustify">SYNTHETIC SLAG ( SLAG CONDITIONER FOR STEELPLANTS )</li>
         <li class="h4  textjustify">SLAG KILL100</li>
         <li class="h4  textjustify">SLAG MASTER</li> -->
      </ul>
-    
+
 </section>
 <div style="margin: 12% 0 12% 0;">
     <hr>
 </div>
 <!-- WHAT SERVICES WE OFFER info -->
 
-    
+
 @endsection

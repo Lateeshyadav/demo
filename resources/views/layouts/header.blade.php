@@ -22,12 +22,12 @@
             text-align: justify
           }
          }
-              
-        
+
+
     </style>
 </head>
 <body>
-    
+
     <!-- Contact Info Navbar -->
     <nav class="navbar navbar-expand-sm green d-none d-sm-block">
         <div class="container-fluid">
@@ -54,7 +54,7 @@
     <!-- Main Navbar -->
     <nav class="navbar navbar-expand-sm bg-light">
         <div class="container-fluid justify-content-center">
-            <a class="navbar-brand mx-auto" href="#">
+            <a class="navbar-brand mx-auto" href="/">
                 <img class="log" src="{{asset('refmet/assets/images/logo/logo.png')}}" alt="Logo" style="width: 10vw;">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">

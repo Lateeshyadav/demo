@@ -9,16 +9,16 @@
         <div class="col-md-4 col-12">
             <img src="{{asset('product_img/Z-Slag-Can.jpg')}}" alt="" class="img">
         </div>
-        <div class="col-md-8 col-12"> 
+        <div class="col-md-8 col-12">
           <div class="productname">
             <h1 class="darkgreen fontf">Z-SLAG-CAN</h1>
-            <h3 class="yellow fontf">PRODUCT DATA SHEEET</h3></div>  
-              
+            <h3 class="yellow yellow_dark fontf">PRODUCT DATA SHEEET</h3></div>
+
           </div>
     </div>
 
   </div>
-    
+
   <div class="container mt-0">
     <div class="row">
       <div class="col-sm-6">
@@ -50,58 +50,58 @@
               {{-- <th scope="row">1</th> --}}
               <td>C<sub>12</sub>A<sub>7</sub></td>
               <td>:</td>
-              <td>100%</td>              
+              <td>100%</td>
             </tr>
-            <tr>              
+            <tr>
               <td>CaO</td>
               <td>:</td>
               <td>42 to 46%</td>
-              
+
             </tr>
-            <tr>              
+            <tr>
               <td>Al<sub>2</sub>O<sub>3</sub></td>
               <td>:</td>
               <td>38 to 42%</td>
             </tr>
-            <tr>              
+            <tr>
               <td>SiO<sub>2</sub></td>
               <td>:</td>
               <td>6 - 10%</td>
             </tr>
-            <tr>              
+            <tr>
               <td>FE<sub>2</sub>O<sub>3</sub> + FEO</td>
               <td>:</td>
               <td>2 - 3%</td>
             </tr>
-            <tr>              
+            <tr>
               <td>TiO<sub>2</sub></td>
               <td>:</td>
               <td>0.5% MAX</td>
             </tr>
-            <tr>              
+            <tr>
               <td>Size</td>
               <td>:</td>
               <td>10-15mm lumps</td>
-            </tr>            
+            </tr>
           </tbody>
         </table>
         <p class="textjustify p">(With the rising Titanium restriction in finished Steel, this slag conditioner is ideal) Packaging: 1MT jumbo bag / 20kg HDPE bags in Pallet</p>
-        
+
       </div>
       <div class="col-sm-6">
-        <h3 class="darkgreen fontf">APPLICATION : (How to use) </h3>  
+        <h3 class="darkgreen fontf">APPLICATION : (How to use) </h3>
         <ul>
-          <li class="textjustify p"> Once the Liquid Steel is ready for tapping and empty ladle is placed add 3kg of Z-Slag CAN per ton of liquid steel in the empty ladle or during the tapping.</li>    
-          <li class="textjustify p"> Take the ladle to LRF for refining process. During which lime and other flux are added as per old SOP.</li>    
-          <li class="textjustify p"> During final stages if the MnO or FeO content of slag is high add 2kg to 8kg of Z-Slag CAN this will help improve Metal Oxide reduction back to Metal. Make sure after the 2nd addition there is sufficient turbulence in the ladle for proper slag and metal reaction at the interface.</li> 
-            
-        </ul>      
-        
-        <h3 class="darkgreen fontf">BENEFITES OF Z-Slag CAN : </h3> 
+          <li class="textjustify p"> Once the Liquid Steel is ready for tapping and empty ladle is placed add 3kg of Z-Slag CAN per ton of liquid steel in the empty ladle or during the tapping.</li>
+          <li class="textjustify p"> Take the ladle to LRF for refining process. During which lime and other flux are added as per old SOP.</li>
+          <li class="textjustify p"> During final stages if the MnO or FeO content of slag is high add 2kg to 8kg of Z-Slag CAN this will help improve Metal Oxide reduction back to Metal. Make sure after the 2nd addition there is sufficient turbulence in the ladle for proper slag and metal reaction at the interface.</li>
+
+        </ul>
+
+        <h3 class="darkgreen fontf">BENEFITES OF Z-Slag CAN : </h3>
         <ul>
-          <li> Quick Melting Slag cover reduces re-oxidation</li>    
+          <li> Quick Melting Slag cover reduces re-oxidation</li>
           <li> Narrow range of impurities and inclusion level.</li>
-          <li> Quick desulphurization right from the tapping of molten steel.</li>    
+          <li> Quick desulphurization right from the tapping of molten steel.</li>
           <li> Saves Al- Metal consumption.</li>
           <li> Reduction of refining time.</li>
           <li> Improves refectory lining Life.</li>
@@ -109,26 +109,26 @@
           <li> Reduces Calcium treatment.</li>
           <li> Reduces Power consumption.</li>
           <li> Most importantly Consistent quality of steel. </li>
-          <li> Cost saving is more than the cost of addition.</li>  
-        </ul>          
-        
-          
+          <li> Cost saving is more than the cost of addition.</li>
+        </ul>
+
+
         <h3 class="darkgreen fontf ">FEW OF THE MOST CONMMAN SMS SHOETCOMINGS WE ADDRESS:</h3>
         <ul>
-        <li> Fuming in work space.</li>    
-        <li> Crusting of slag in the ladle.</li>    
-        <li> Oxidation of liquid steel due to reaction with atmospheric Oxygen.</li>    
-        <li> Heat loss from slag zone</li>    
-        <li> Avoid use of CaF2</li>    
-        <li> Improve Ladle life</li>    
-        <li> Reduction in time needed for Sulphur and non-metallic inclusion removal.</li>    
-        <li> We help control Titanium in steel,</li>    
-                     
+        <li> Fuming in work space.</li>
+        <li> Crusting of slag in the ladle.</li>
+        <li> Oxidation of liquid steel due to reaction with atmospheric Oxygen.</li>
+        <li> Heat loss from slag zone</li>
+        <li> Avoid use of CaF2</li>
+        <li> Improve Ladle life</li>
+        <li> Reduction in time needed for Sulphur and non-metallic inclusion removal.</li>
+        <li> We help control Titanium in steel,</li>
+
         </ul>
-        
-      </div>      
+
+      </div>
     </div>
   </div>
-  
-    
+
+
 @endsection

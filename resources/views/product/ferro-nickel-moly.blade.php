@@ -9,23 +9,23 @@
         <div class="col-md-4 col-12">
             <img src="{{asset('product_img/FERRO-NICKEL-MOLY.jpg')}}" alt="" class="img">
         </div>
-        <div class="col-md-8 col-12">  
+        <div class="col-md-8 col-12">
             <div class="productname">
                 <h1 class="darkgreen fontf">FERRO NICKEL MOLY</h1>
-                <h3 class="yellow fontf">PRODUCT DATA SHEEET</h3>
-                
-            </div> 
+                <h3 class="yellow yellow_dark fontf">PRODUCT DATA SHEEET</h3>
+
+            </div>
         </div>
     </div>
 
   </div>
-    
+
   <div class="container mt-5">
     <div class="row">
       <div class="col-sm-6">
         <h4 class="darkgreen fontf">WHAT IS FERRO NICKEL MOLY ?</h4>
         <table class="table border table-hover">
-          <thead>                      
+          <thead>
           </thead>
           <tbody>
               <tr>
@@ -67,9 +67,9 @@
       </table>
         <h3 class="darkgreen fontf">commercial Benefit</h3>
         <p class="textjustify p">Ferro Nickel Moly provides great cost saving as some 2 to 3% Moly is free and only need to pay for Ni%and that is at Pure Nickel price. But that's not the only cost benefit, there is no import duty. Ferro Nickel Moly is available in India unlike pure nickel which need to be imported. And if bought from a trader they will also keep their cut. Ferro Nickel Moly will be directly supplied by us.</p>
-        
-        
-        
+
+
+
       </div>
       <div class="col-sm-6">
         <h4 class="darkgreen fontf">Ferro Nickel Moly Vs Pure Nickel and Ferro Moly </h4>
@@ -83,9 +83,9 @@
  <p class="textjustify p">There are no limitationto the use of Ferro Nickel Moly.</p>
  <h4 class="darkgreen fontf">Precaution of Using Ferro NickelMoly</h4>
  <p class="textjustify p">The only precaution needed while using Ferro Nickel Moly is to keep a note of the percentage of nickel content in thebatch being used and adjust the input weight accordingly. And when adding Ferro Moly to note how much Moly already added as Ferro Nickel Moly.</p>
-                     
-      </div>      
+
+      </div>
     </div>
   </div>
-    
+
 @endsection

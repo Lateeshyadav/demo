@@ -8,19 +8,19 @@
         <style>
             @media(max-width:576px){
                 .img{
-                margin-left:75px 
+                margin-left:75px
             }
 
             }
-            
+
 
         </style>
-    
+
         <div class="container mt-5 product-top">
             <div class="row">
                 <div class="col-sm-6">
                   <img src="{{ asset('product_img/TUNGSTEN-OXIDE.jpg') }}" alt="" class="img" style="align-items: center">
-                    <h4 class="yellow fontf">TUNGSTEN OXIDE</h4>
+                    <h4 class="yellow yellow_dark fontf">TUNGSTEN OXIDE</h4>
                     <h4 class="darkgreen fontf">Nx35</h4>
                     <p class="textjustify p">Tungsten oxide is an oxide compound of tungsten and oxygen. This compound is
                         usually used as a host raw material for optical materials. Because it offers unique optical
@@ -29,26 +29,26 @@
                     <p class="textjustify p">Tungsten oxideis an abundant, versatile oxide that is widely explored for
                         catalysis, sensing, electrochromic devices, and numerous other applications.</p>
 
-                        <h5 class="yellow fontf">Properties of Tungsten oxide Wo<sub>3</sub></h5>
+                        <h5 class="yellow yellow_dark fontf">Properties of Tungsten oxide Wo<sub>3</sub></h5>
 
 
                         <table class="table table-bordered">
                           {{-- <h4>PRODUCT</h4> --}}
                           {{-- <h5>NICKLE OXIDE & COBALT OXIDE</h5> --}}
                           <thead>
-                            
+
                           </thead>
                           <tbody>
                               <tr>
                                   {{-- <th scope="row">1</th> --}}
                                   <td colspan="3" class="darkgreen fs-4" >CHEMICAL PROPERTIES WO3</td>
-                                  
+
                               </tr>
                               <tr>
                                   <td>1</td>
                                   <td>CHEMICAL FORMULA:</td>
                                   <td>Wo3</td>
-        
+
                               </tr>
                               <tr>
                                   <td>2</td>
@@ -95,41 +95,41 @@
                                   <td>Safety and storage conditions</td>
                                   <td>Store under clean, dry conditions</td>
                               </tr>
-                              
-                              
+
+
                           </tbody>
                       </table>
-                    
+
 
                 </div>
                 <div class="col-sm-6">
                   <img src="{{ asset('product_img/VANADIUM-PENTOXIDE.jpg') }}" alt="" class="img">
-                  <h4 class="yellow fontf">VANADIUM PENTOXIDE</h4>
+                  <h4 class="yellow yellow_dark fontf">VANADIUM PENTOXIDE</h4>
                   <h4 class="darkgreen fontf">Wn38</h4>
                   <p class="textjustify p">Vanadium pentoxide (V205) is a compound composed of vanadium and oxygen atoms.</p>
                   <p class="textjustify p">Tungsten oxideis an abundant, versatile oxide that is widely explored for
                       catalysis, sensing, electrochromic devices, and numerous other applications.</p>
 
-                      <h5 class="yellow fontf">Properties of Vanadium Pentoxide (V205):</h5>
+                      <h5 class="yellow yellow_dark fontf">Properties of Vanadium Pentoxide (V205):</h5>
 
 
                       <table class="table table-bordered">
                         {{-- <h4>PRODUCT</h4> --}}
                         {{-- <h5>NICKLE OXIDE & COBALT OXIDE</h5> --}}
                         <thead>
-                          
+
                         </thead>
                         <tbody>
                             <tr>
                                 {{-- <th scope="row">1</th> --}}
                                 <td colspan="3" class="darkgreen fs-4" >CHEMICAL PROPERTIES V205</td>
-                                
+
                             </tr>
                             <tr>
                                 <td>1</td>
                                 <td>CHEMICAL FORMULA:</td>
                                 <td>V205</td>
-      
+
                             </tr>
                             <tr>
                                 <td>2</td>
@@ -181,11 +181,11 @@
                               <td>Water Soluble</td>
                               <td>Nil</td>
                             </tr>
-                            
-                            
+
+
                         </tbody>
                     </table>
-                    <h4 class="yellow fontf">Applications of Vanadium Pentoxide (V205):</h4>
+                    <h4 class="yellow yellow_dark fontf">Applications of Vanadium Pentoxide (V205):</h4>
                     <ul>
                         <li> Catalyst:</li>
                         <li> Ceramics and Glass:</li>
@@ -195,7 +195,7 @@
                         <li> Alloy steel industries</li>
                     </ul>
 
-                  
+
 
                 </div>
             </div>

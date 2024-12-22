@@ -14,7 +14,7 @@
             <div class="col-md-8 col-12">
                 <div class="productname">
                     <h1 class="darkgreen fontf">NICKLE OXIDE & COBALT OXIDE</h1>
-                    <h3 class="yellow fontf">PRODUCT DATA SHEEET</h3>
+                    <h3 class="yellow yellow_dark fontf">PRODUCT DATA SHEEET</h3>
                 </div>
 
             </div>
@@ -47,7 +47,7 @@
                         <tr>
                             {{-- <th scope="row">1</th> --}}
                             <td colspan="3" class="darkgreen fs-4">Properties of Nickle Oxide (NiO)</td>
-                            
+
                         </tr>
                         <tr>
                             <td>1</td>
@@ -119,7 +119,7 @@
                       <li> Heat-Resistant Coatings</li>
                       <li> Ceramic Coatings</li>
                         </ul>
-                      
+
                     </div>
                     <div class="col-6">
                         <ul>
@@ -142,13 +142,13 @@
                   {{-- <h4>PRODUCT</h4> --}}
                   {{-- <h5>NICKLE OXIDE & COBALT OXIDE</h5> --}}
                   <thead>
-                    
+
                   </thead>
                   <tbody>
                       <tr>
                           {{-- <th scope="row">1</th> --}}
                           <td colspan="3" class="darkgreen fs-4" >Properties of Nickle Oxide (NiO)</td>
-                          
+
                       </tr>
                       <tr>
                           <td>1</td>
@@ -206,7 +206,7 @@
                           <td>Water Soluble</td>
                           <td>Nil</td>
                       </tr>
-                      
+
                   </tbody>
               </table>
               <h4 class="darkgreen fontf">Application Areas:</h4>
@@ -228,7 +228,7 @@
                     <li> Alloy steel industries</li>
                     <li> High Speed steel</li>
                     </ul>
-                    
+
                   </div>
                 </div>
               </div>

@@ -13,8 +13,8 @@
                     <li><a href="#" class="btn btn-green  p-3 btna ">SERVICE WE OFFER</a></li>
                     <li><a href="#" class="btn btn-green  p-3 btna ">LIST OF APPROVALS</a></li>
                 </ul> --}}
-                <div class="text-about">
-                    <h2 class="text-center text-green textinfo-h3 h1-info">Refracast Metallurgicals Pvt.Ltd.</h2>
+                <div class="mt-3">
+                    <h2 class="text-center text-green textinfo-h3 fe-bold">Refracast Metallurgicals Pvt.Ltd.</h2>
                 </div>
             </div>
         </div>
@@ -32,7 +32,7 @@
         <li class="h4  textjustify textinfo-h1-p ">PERMISSION TO IMPORT SPENT CATALYST FROM MINISTRY OF ENVIRONMENT AND <br>
             CLIMATE CHANGE, GOVERNMENTOF INDIA.</li>
      </ul>
-    
+
 </section>
 <div style="margin: 18% 0 12% 0;">
     <hr>
@@ -40,5 +40,5 @@
 <!-- LIST OF APPROVALS info -->
 
 
-    
+
 @endsection

@@ -12,10 +12,13 @@
     <link rel="stylesheet" href="{{asset('bootstrap-5.3.3-dist/css/bootstrap.css')}}">
     <link rel="stylesheet" href="{{asset('FontAwsome_v6/css/all.css')}}">
     <link rel="stylesheet" href="{{asset('css/demo.css')}}">
-    <link rel="stylesheet" href="{{asset('css/style.css')}}">  
-    <link rel="icon" type="image/png" sizes="32x32" href="{{asset('image/favicon.png')}}"> 
+    <link rel="stylesheet" href="{{asset('css/style.css')}}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{asset('image/favicon.png')}}">
     <style>
      @media(max-width:576px){
+        .footer .footer_about{
+line-height: 16px;
+        }
             .text-underline{
             position:inherit;
           }
@@ -24,22 +27,15 @@
           }
           .nav-margin-left{
             margin-left:0% ;
-            /* overflow: hidden;
-             transition: left 0.3s ease; */
-            /* align-items: center; */
             text-align: justify
           }
-          /* .log{
-            width: 88px;
-            top:7px;
-          } */
          }
-              
-        
+
+
     </style>
 </head>
 <body>
-    
+
         <!-- Contact Info Navbar -->
     <nav class="navbar navbar-expand-sm green d-none d-sm-block">
         <div class="container-fluid">
@@ -66,8 +62,8 @@
     <!-- Main Navbar -->
     <div class="stickytop shadow">
     <nav class="navbar navbar-expand-sm white ">
-        <div class="container-fluid justify-content-center">
-            <a class="navbar-brand mx-auto" href="#">
+        <div class="container-fluid px-lg-5 justify-content-center">
+            <a class="navbar-brand mx-auto" href="/">
                 {{-- <img class="log" src="{{asset('refmet/assets/images/logo/logo.png')}}" alt="Logo"> --}}
                 <img class="log" src="{{asset('image/logo.png')}}" alt="Logo">
             </a>
@@ -98,7 +94,7 @@
         </div>
     </nav>
     </div>
-    
+
 
 @section('content')
 @show
@@ -120,19 +116,19 @@
     <div class="row bg-white footer-row-second px-2" style="border-radius: 50px 50px 0 0;">
         <div class="col-md-4  col-12 ">
             <img src="{{asset('image/logo.png')}}" alt="" style="width: ;" class="mb-4 log-f">
-            <p class=" h5 textjustify darkgreen footer-p">Refracast Metallurgicals Pvt Ltd (RMPL) 
-                stands as a prominent leader in the 
-                metallurgical industry, specializing in spent 
-                catalyst recycling and innovative solutions for 
-                the steel-making sector in India. Established 
-                in 1995 in Raipur, Chhattisgarh, our company 
-                has consistently demonstrated its pioneering 
-                capabilities through relentless research and 
-                development, setting us apart as a trendsetter 
+            <p class="footer_about h5 textjustify darkgreen footer-p">Refracast Metallurgicals Pvt Ltd (RMPL)
+                stands as a prominent leader in the
+                metallurgical industry, specializing in spent
+                catalyst recycling and innovative solutions for
+                the steel-making sector in India. Established
+                in 1995 in Raipur, Chhattisgarh, our company
+                has consistently demonstrated its pioneering
+                capabilities through relentless research and
+                development, setting us apart as a trendsetter
                 in the industry</p>
         </div>
         <div class="col-md-2 col-12 " >
-            <h1 class="  f-company">Company</h1>
+            <h1 class="fw-bold  f-company">Company</h1>
             <ul class="">
                 <li class="footer-row-second-li fli"><a class="footer-row-second-a" href="{{'/'}}">Home</a></li>
                 <li class="footer-row-second-li fli"><a class="footer-row-second-a" href="{{'/about'}}">About</a></li>
@@ -143,7 +139,7 @@
             </ul>
         </div>
         <div class="col-md-2 col-12 ">
-            <h1 class=" f-company">Products</h1>
+            <h1 class="fw-bold f-company">Products</h1>
             <ul>
                 <li class="footer-row-second-li"><a class="footer-row-second-a" href="{{'/zslagcan'}}">Z-SLAG CAN</a></li>
                 <li class="footer-row-second-li"><a class="footer-row-second-a" href="{{'/zslagcaal50'}}">Z-SLAG CA-AL50</a></li>
@@ -154,9 +150,9 @@
             </ul>
         </div>
         <div class="col-md-4 col-12  ">
-            <h1 class=" footer-h">Location</h1>                
+            <h1 class="fw-bold footer-h">Contact</h1>
             <ul>
-                <li class="footer-row-second-li"><p class="footer-row-second-P textjustify pe-2"><strong>Corporate Office Address :</strong> 
+                <li class="footer-row-second-li"><p class="footer-row-second-P textjustify pe-2"><strong>Corporate Office Address :</strong>
                     Crown Building &nbsp &nbsp Ashoka Park,Opposite Khamardih Police Station, Near Devkripa Hospital Shankar Nagar
                      Raipur (CG)-492001</p>
                 </li>
@@ -167,10 +163,10 @@
         </div>
         <hr class="mt-5">
     </div>
-           
+
     <div class="row bg-white">
         <div class="col-md-12">
-            <h5 class="text-center mt-0 footer-copy">Copyright © 2024. RAYS IT & DESIGN WORLD PVT. LTD. | All Rights Reserved.</h5>
+            <h5 class="text-center mt-0 footer-copy">Copyright © 2024. Refracast Metallurgicals PVT. LTD. | All Rights Reserved.</h5>
         </div>
     </div>
  </div>

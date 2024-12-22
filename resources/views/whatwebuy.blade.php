@@ -13,8 +13,8 @@
                     <li><a href="#" class="btn btn-green  p-3 btna ">SERVICE WE OFFER</a></li>
                     <li><a href="#" class="btn btn-green  p-3 btna ">LIST OF APPROVALS</a></li>
                 </ul> --}}
-                <div class="text-about">
-                    <h2 class="text-center text-green textinfo-h3 h1-info">Refracast Metallurgicals Pvt.Ltd.</h2>
+                <div class="mt-3">
+                    <h2 class="text-center text-green textinfo-h3 fw-bold">Refracast Metallurgicals Pvt.Ltd.</h2>
                 </div>
             </div>
         </div>
@@ -38,11 +38,11 @@
         <li class="h4  textjustify textinfo-h1-p">Industrial Sludge having Nickel, Cobalt, Molybdenum, Vanadium, Tungsten, and Zinc.</li>
      </ul>
      <a href="{{asset('broucher/BROCHURE.pdf')}}" download="BROCHURE.pdf" class=" text-decoration-none btn green btnbroucher w-100 py-3"><i class="fa-solid fa-download m-1"></i>Download Brochure</a>
-    
+
 </section>
 <div style="margin: 12% 0 12% 0;">
     <hr>
 </div>
 <!-- what we buy info -->
-    
+
 @endsection

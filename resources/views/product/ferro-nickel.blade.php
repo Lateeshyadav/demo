@@ -14,9 +14,9 @@
                 <div class="productname">
                     <h1  class="darkgreen fontf">FERRO NICKEL</h1>
                 <h3 class="darkgreen fontf">(60% to 75%, grade)</h3>
-                <h3 class="yellow fontf">PRODUCT DATA SHEEET</h3>
+                <h3 class="yellow yellow_dark fontf">PRODUCT DATA SHEEET</h3>
                 </div>
-                
+
             </div>
         </div>
 
@@ -26,10 +26,10 @@
         <div class="row">
             <div class="col-sm-6">
                 <h5 class="darkgreen fontf">WHAT IS FERRO NICKEL</h5>
-                <h5 class="darkgreen fontf">(60% TO 75%,GRADE)?</h5> 
+                <h5 class="darkgreen fontf">(60% TO 75%,GRADE)?</h5>
 
                 <table class="table border table-hover">
-                    <thead>                      
+                    <thead>
                     </thead>
                     <tbody>
                         <tr>
@@ -80,7 +80,7 @@
                     that comes with cost benefit plant gets 25 to 35% fe free of cost.</p> --}}
 
             </div>
-        
+
         <div class="col-sm-6">
             <h4 class="darkgreen fontf">Ferro Nickel Vs Pure Nickel</h4>
             <p class="textjustify p">Unlike pure nickel plate Ferro Nickel is a very safe product to store in shop floor. No added care needs
